@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from "react-router-dom";
 import { Provider } from 'react-redux'
-import { router } from "./router/index.jsx";
+import { router } from "./router/index.js";
 import store from './store/store.js';
 import "bootstrap/dist/css/bootstrap.css";
 

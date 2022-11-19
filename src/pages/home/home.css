@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arya:wght@400;700&display=swap');
 
 body {
   color: #000000;
@@ -7,13 +6,18 @@ body {
   background: #F5EEEE;
 }
 
-h1 {
+.container-xxl {
+  padding-block: 100px 80px;
+  gap: 80px;
+}
+
+.intro-bg h1 {
   font-size: 36px;
   margin-bottom: 50px;
   margin-top: -20px;
 }
 
-p {
+.intro-bg p {
   max-width: 33ch;
   font-size: 24px;
   text-align: center;
@@ -21,14 +25,14 @@ p {
   margin-bottom: 0;
 }
 
-p:last-child {
+.intro-bg p:last-child {
   font-size: 36px;
   text-align: center;
   margin-top: 30px;
   margin-inline: auto;
 }
 
-img {
+.intro-bg img {
   max-width: 100%;
   height: auto;
 }
@@ -40,7 +44,61 @@ img {
   margin-inline: auto;
 }
 
-.container-xxl {
-  padding-block: 100px 80px;
-  gap: 80px;
+.highlights-bg {
+  background-color: #0C0B0B;
+}
+
+.highlights-bg h2 {
+  color: #DA6A04;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 48px;
+  font-weight: 400;
+  border-bottom: 1px solid #E9E0E0;
+  grid-column: span 2;
+  justify-self: center;
+  padding-bottom: 10px;
+}
+
+.highlights-bg h3 {
+  color: #DA6A04;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.highlights-bg p {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.highlights-bg img {
+  max-width: 100%;
+  align-self: flex-start;
+}
+
+.highlights {
+  padding-block: 35px;
+}
+
+.highlights span {
+  display: block;
+  color: #DA6A04;
+  font-size: 24px;
+  margin-block: 10px;
+  font-weight: 400;
+}
+
+.highlights > .highlight {
+  align-self: center;
+}
+
+.highlight {
+  max-width: 290px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 100px;
 }
