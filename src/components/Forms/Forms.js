@@ -1,23 +1,25 @@
-import { Form, FormGroup,Label,Col,Input } from "reactstrap"
+import { Form, FormGroup,Label,Col,Input,Button } from "reactstrap"
 import "./Forms.css"
 
 export const Formss = () => { 
   return (
   <> 
   <section> 
-    <h5 className="text"> SEU PEDIDO SERÁ DIRECIONADO PARA O WHATSAAP, INFORME SEUS DADOS </h5> 
+    <h5 className="text d-flex justify-content-center"> 
+    SEU PEDIDO SERÁ DIRECIONADO PARA O WHATSAPP, INFORME SEUS DADOS 
+    </h5> 
+    <container className="container d-flex justify-content-center"> 
     <div className="form"> 
-  
-  <div className="forms"> 
-<Form>
+    
+<Form id="form">
   <FormGroup row>
     <Label
-      for="exampleEmail"
-      sm={1}
+      for="examplename"
+      sm={2}
     >
-      Nome 
+      Nome
     </Label>
-    <Col sm={6}>
+    <Col sm={10}>
       <Input
         id="input"
         name="name"
@@ -30,11 +32,11 @@ export const Formss = () => {
   <FormGroup row>
     <Label
       for="exampleAdress"
-      sm={1}
+      sm={2}
     >
       Endereço
     </Label>
-    <Col sm={6}>
+    <Col sm={10}>
       <Input
         id="input"
         placeholder="Digite seu Endereço"
@@ -46,11 +48,11 @@ export const Formss = () => {
   <FormGroup row>
     <Label
       for="exampleAdress"
-      sm={1}
+      sm={2}
     >
       CEP
     </Label>
-    <Col sm={6}>
+    <Col sm={10}>
       <Input
         id="input"
         placeholder="Digite seu CEP"
@@ -62,22 +64,30 @@ export const Formss = () => {
   <FormGroup row>
     <Label
       for="exampletelphone"
-      sm={1}
+      sm={2}
     >
       Telefone
     </Label>
-    <Col sm={6}>
+    <Col sm={10}>
       <Input
         id="input"
         placeholder="Digite seu Telefone"
-        type="text"
+        type="Phone"
       />
     </Col>
   </FormGroup>
-  
+  <div className="buttons">
+  <Button 
+        id="button" >
+        <p className="texto"> 
+        CONTINUAR 
+        </p>  
+  </Button>
+  </div>
   </Form>
+  
   </div>
-  </div>
+  </container>
   </section>
   </>
   )
