@@ -1,36 +1,35 @@
-import { Card, CardHeader, Row, Col } from "reactstrap";
-import { Background } from "../components/Background/Background";
+import { Row, Col,Table } from "reactstrap";
+import { ButtonComeBack } from "../components/Cart/ButtonComeBack";
 import { ButtonFinishOrder } from "../components/Cart/ButtonFinishOrder";
-import { NavBar } from "../components/Cart/NavBar";
+import { CardProduct } from "../components/Cart/CardProduct";
+import { FooterCart } from "../components/Cart/FooterCart";
+import { HeaderCart } from "../components/Cart/HeaderCart";
+import { Informations } from "../components/Cart/Informations";
 import "../styles/Cart.css"
 
 export const Cart = () => {
   return (
     <>
-    <NavBar/>
-    <Background>
-      <Row xs="2" className="header">
-        <Col>
-        <h1>MEU CARRINHO</h1>
-        </Col>
-        <Col xs="auto">
-        <ButtonFinishOrder/>
-        </Col>
-      </Row>
-    <div className="containerCard">
-        <Card>
-          <CardHeader>
-            <Row xs="5" className="titles">
-              <Col> PRODUTO</Col>
-              <Col> ENTREGA</Col>
-              <Col> PREÇO</Col>
-              <Col> QUANTIDADE</Col>
-              <Col> TOTAL</Col>
-            </Row>
-          </CardHeader>
-        </Card>
+    <div className="buttonComeBack">
+      <ButtonComeBack/>
+    </div>
+    <div className="title">
+    <h1>MEU CARRINHO</h1>
+    </div>
+    <div className="cart">
+    <div className="container">
+       <HeaderCart/>
+      <div className="cardProduct">
+      <CardProduct/>
       </div>
-      </Background>
+      <div className="cartInformations">
+      <Informations/>
+      </div>
+      <div className="cartFooter">
+      <FooterCart/>
+      </div>
+    </div>
+    </div>
       </>
   
   )

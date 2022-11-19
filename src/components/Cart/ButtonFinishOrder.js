@@ -3,6 +3,12 @@ import "./ButtonFinishOrder.css"
 
 export const ButtonFinishOrder = () => {
   return (
-    <Button>FINALIZAR PEDIDO</Button>
+    <Button
+    className="btnFinish"
+    href="/formulario"
+    tag="a"
+    >
+    FINALIZAR PEDIDO
+    </Button>
   )
 }

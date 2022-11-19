@@ -1,31 +1,32 @@
-.container {
-  height: 100%;
-  width: 100%;
-}
-
-.containerCard{
-    width: 100%;
+.container{
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.header {
-    max-width: 100%;
+.buttonComeBack{
+    margin-left: 3rem;
+}
+
+.title {
+margin-left:9.5rem;
+}
+
+.cardProduct{
+    width: 95%;
+}
+
+.cartInformations {
+    width: 95%;
+    border: 1px solid #000000;
+}
+
+.cartFooter{
+    width: 95%;
+    border: 1px solid #000000;
 }
 
 
-.card {
-    width: 70%;
-    margin-top: 15rem;
-    justify-content: center;
-}
 
-.card-header {
-    height: 10vh;
-    justify-content: center;
-}
-
-.titles {
-   padding-top: 1rem;
-   padding-left: 2rem;
-}
