@@ -1,9 +1,9 @@
+import Formulary  from './pages/Formulary';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <Formulary/>
   );
 }
 

@@ -1,0 +1,17 @@
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.form{
+    width: 962px;
+    height: 478px;
+    max-width: 100%;
+    margin-left: 220px;
+    border: 1px solid #000000;
+}
+#input{
+    background-color: #E8DFDF;
+    
+}
