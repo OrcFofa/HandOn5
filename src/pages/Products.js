@@ -37,7 +37,6 @@ export const Products = () => {
 
   return (
 
-
     <div className="productsItems">
     {
     products.map(product => (

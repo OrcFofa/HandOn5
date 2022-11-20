@@ -36,6 +36,7 @@ export const Cart = () => {
                                  price={cartItem.price}
                                  quantity={cartItem.cartQuantity}
                                  cartItem={cartItem}
+                                 product={cartItem}
                                 //  total={cartItem.price * cartItem.cartQuantity}
                                  />
                             ))) }

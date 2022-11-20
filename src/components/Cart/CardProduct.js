@@ -3,7 +3,7 @@ import { removeFromCart } from "../../store/cartSlice";
 import { ButtonQuantity } from "./ButtonQuantity";
 import "./CardProduct.css"
 
-export const CardProduct = ({id, img, title, price, total, quantity, cartItem}) => {
+export const CardProduct = ({id, img, title, price, total, quantity, cartItem, product}) => {
 
     const dispatch = useDispatch();
 
@@ -16,7 +16,7 @@ export const CardProduct = ({id, img, title, price, total, quantity, cartItem}) 
                   </div>
                   <span>a calcular</span>
                   <span>{price}</span>
-                  <span><ButtonQuantity quantity={quantity}/></span>
+                  <span><ButtonQuantity quantity={quantity} product={product}/></span>
                   <span className="total">R$25,00</span>
                   <div className="contentBtn">
                   <button className="btnRemove" onClick={() => dispatch(removeFromCart(cartItem))}>X</button>
