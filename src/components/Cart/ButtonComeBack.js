@@ -4,7 +4,7 @@ import "./ButtonComeBack.css"
 
 export const ButtonComeBack = () => {
     return (
-        <Link to="/produtos" className="link">
+        <Link to="/home" className="link">
             <TbChevronLeft className="arrow"/>
         </Link>
     )

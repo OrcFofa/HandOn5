@@ -1,5 +1,6 @@
 
 
+import { ButtonQuantity } from "./ButtonQuantity"
 import "./CardProduct.css"
 
 export const CardProduct = () => {
@@ -22,9 +23,11 @@ export const CardProduct = () => {
                   </div>
                   <span>{product.delivery}</span>
                   <span>{product.price}</span>
-                  <span></span>
-                  <span>R$25,00</span>
+                  <span><ButtonQuantity/></span>
+                  <span className="total">R$25,00</span>
+                  <div className="contentBtn">
                   <button className="btnRemove">X</button>
+                  </div>
                 </>
             ))
         } </div>
