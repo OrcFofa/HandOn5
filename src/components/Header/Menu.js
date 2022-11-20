@@ -20,7 +20,7 @@ function Menu ()  {
             <Nav.Link className="links" href="#links">Home</Nav.Link>
             <Nav.Link className="links" href="#link">Sobre</Nav.Link>
             <Nav.Link className="links" href="#link2">Cervejas</Nav.Link>
-            <Nav.Link className="links" href="#link3">Carrinho<img src={cart} width="25" height="25" alt="Imagem do carrinho de compras"/><Badge id="badgenav" bg="">9</Badge></Nav.Link>
+            <Nav.Link className="links" href="../../pages/Cart">Carrinho<img src={cart} width="25" height="25" alt="Imagem do carrinho de compras"/><Badge id="badgenav" bg="">9</Badge></Nav.Link>
             
             <Nav>
             <Nav.Link id="barrier" className="icones" href="#link4"><img src={tiktok} width="25" height="25" alt="Logo do TikTok"/></Nav.Link>

@@ -1,0 +1,18 @@
+.content {
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 95%;
+    min-height: 9vh;
+}
+.titleProduct{
+    margin-left: 2rem;
+    margin-right: 6rem;
+    }
+    
+.content span{
+    width: 240px;
+    font-size: 1.3rem;
+    }
