@@ -1,11 +1,11 @@
 import "./Informations.css"
 
-export const Informations = () => {
+export const Informations = ({subtotal, total}) => {
     return (
         <div className="informations">
             <div>
                 <span>SUBTOTAL</span>
-                <span>R$25,00</span>
+                <span>{subtotal}</span>
             </div>
             <div>
                 <span>ENTREGA</span>
@@ -15,7 +15,7 @@ export const Informations = () => {
             </div>
             <div>
                 <span>TOTAL</span>
-                <span>R$25,00</span>
+                <span>{total}</span>
             </div>
         </div>
     )

@@ -41,7 +41,10 @@ export const Cart = () => {
                         </div>
                     )}
                     <div className="cartInformations">
-                        <Informations/>
+                        <Informations
+                        subtotal={cart.cartTotalAmount}
+                        total={cart.cartTotalAmount}
+                        />
                     </div>
                     <div className="cartFooter">
                         <FooterCart/>
