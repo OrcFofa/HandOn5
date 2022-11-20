@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux"
-import { addToCart } from "../../store/cartSlice";
+import { addToCart, decreaseCart } from "../../store/cartSlice";
 import "./ButtonQuantity.css"
 
 export const ButtonQuantity = ({quantity, product}) => {
@@ -8,7 +8,7 @@ export const ButtonQuantity = ({quantity, product}) => {
 
     return (
         <div className="cart-product-quantity">
-            <button>
+            <button onClick={() => dispatch(decreaseCart(product) )}>
                 -
             </button>
             <div className="count">{quantity}</div>
