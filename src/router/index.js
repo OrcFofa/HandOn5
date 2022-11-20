@@ -10,6 +10,6 @@ export const router = createBrowserRouter([
     {
         path: "/carrinho",
         element: <Cart/>
-    },
+    },   
 ])
 ;
