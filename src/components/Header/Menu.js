@@ -1,6 +1,7 @@
 import React from 'react';
 import {Nav} from 'react-bootstrap';
 import {Navbar} from 'react-bootstrap';
+import Badge from 'react-bootstrap/Badge';
 import logo from "../../assets/img/logo.png"
 import tiktok from "../../assets/img/tiktok.png"
 import cart from "../../assets/img/cart.png"
@@ -16,13 +17,13 @@ function Menu ()  {
           </Navbar.Brand>
              
           <Navbar.Collapse>
-            <Nav.Link className="linkes" href="#links">Home</Nav.Link>
-            <Nav.Link className="linkes" href="#link">Sobre</Nav.Link>
-            <Nav.Link className="linkes" href="#link2">Cervejas</Nav.Link>
-            <Nav.Link className="linkes" href="#link3">Carrinho<img src={cart} width="25" height="25" alt="Imagem do carrinho de compras"/></Nav.Link>
+            <Nav.Link className="links" href="#links">Home</Nav.Link>
+            <Nav.Link className="links" href="#link">Sobre</Nav.Link>
+            <Nav.Link className="links" href="#link2">Cervejas</Nav.Link>
+            <Nav.Link className="links" href="#link3">Carrinho<img src={cart} width="25" height="25" alt="Imagem do carrinho de compras"/><Badge id="badgenav" bg="">9</Badge></Nav.Link>
             
             <Nav>
-            <Nav.Link id="barreira" className="icones" href="#link4"><img src={tiktok} width="25" height="25" alt="Logo do TikTok"/></Nav.Link>
+            <Nav.Link id="barrier" className="icones" href="#link4"><img src={tiktok} width="25" height="25" alt="Logo do TikTok"/></Nav.Link>
             <Nav.Link className="icones" href="#link5"><img src={insta} width="25" height="25" alt="Logo do Instagram"/></Nav.Link>
             <Nav.Link className="icones" href="#link6"><img src={spotify} width="25" height="25" alt="Logo do Spotify"/></Nav.Link>
             </Nav>
