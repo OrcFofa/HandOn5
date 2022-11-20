@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arya';
+    justify-content:space-around;
+}
+
+.menu{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    background-color: black;
+}
+
+.linkes{
+    color: #fff;
+}
+
+.linkes:hover{
+    color: #FF8A20;
+}
+
+#barreira{
+    border-left: 2px solid #fff;
+}
+
+.icones:hover{
+    border-bottom: 2px solid #FF8A20;
+}
