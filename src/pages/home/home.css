@@ -8,13 +8,13 @@ body {
 
 .container-xxl {
   padding-block: 100px 80px;
-  gap: 80px;
+  column-gap: 80px;
 }
 
 .intro-bg h1 {
   font-size: 36px;
-  margin-bottom: 50px;
   margin-top: -20px;
+  margin-bottom: 50px;
 }
 
 .intro-bg p {
@@ -34,7 +34,8 @@ body {
 
 .intro-bg img {
   max-width: 100%;
-  height: auto;
+  border: 2px solid #F5EEEE;
+  border-radius: 9px;
 }
 
 .intro-bg {
@@ -49,14 +50,16 @@ body {
 }
 
 .highlights-bg h2 {
+  grid-column: span 2;
+  align-self: start;
+  justify-self: center;
   color: #DA6A04;
   font-family: 'Alfa Slab One', cursive;
   font-size: 48px;
   font-weight: 400;
   border-bottom: 1px solid #E9E0E0;
-  grid-column: span 2;
-  justify-self: center;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+  margin: 0;
 }
 
 .highlights-bg h3 {
@@ -85,7 +88,8 @@ body {
   display: block;
   color: #DA6A04;
   font-size: 24px;
-  margin-block: 10px;
+  padding-right: 10px;
+  margin-block: 20px;
   font-weight: 400;
 }
 
@@ -101,4 +105,54 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 100px;
+}
+
+@media(max-width: 1100px){
+  .container-img {
+    max-width: 200px;
+  }
+
+  .container-xxl {
+    column-gap: 30px;
+  }
+
+  .grid {
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .highlights h2 {
+    font-size: 35px;
+  }
+
+  .highlights h3 {
+    font-size: 28px;
+  }
+
+  .highlights p {
+    font-size: 20px;
+  }
+
+  .highlights.d-flex {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 900px){
+  .highlights.d-flex {
+    justify-content: center !important;
+    row-gap: 20px;
+  }
+
+  .container-img {
+    order: 1;
+  }
+
+  .grid {
+    order: 3;
+  }
+
+  .info {
+    order: 2;
+  }
 }

@@ -7,7 +7,7 @@ function Home(){
    <>
     <section className="intro-bg">
       <div className="container-xxl d-flex justify-content-between">
-        <img src={Logo} alt="Logo da Breja"/>
+        <div><img src={Logo} alt="Logo da Breja"/></div>
         <div>
           <h1>CONHEÇA E APRECIE NOSSAS CERVEJAS</h1>
           <p>Acreditamos que cerveja artesanal de qualidade é para todo mundo, e por isso temos uma linha bem completa de produtos desde cervejas mais leves e refrescantes até cerveja mais complexas e intensas.</p>
@@ -19,7 +19,7 @@ function Home(){
     
     <section className="highlights-bg">
       <div className="highlights container-xxl d-flex justify-content-between">
-        <img src={Beer} alt="Cerveja da Breja"/>
+        <div className="container-img"><img src={Beer} alt="Cerveja da Breja"/></div>
         <div className="grid">
           <h2>DESTAQUE</h2>
           <div className="highlight">
@@ -31,7 +31,7 @@ function Home(){
             <p>SALADAS <br/> PEIXES BRANCOS <br/> GRELHADOS <br/> QUEIJOS SUAVES <br/> AVES</p>
           </div>
         </div> 
-        <div className="highlight">
+        <div className="highlight info">
           <span>IBU 14</span>
           <span>ABV 5%</span>
           <span>EBC 6</span>
