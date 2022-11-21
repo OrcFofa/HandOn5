@@ -36,6 +36,13 @@ function Home(){
         </div>
       </div>
     </section>
+
+    <section className="quote-bg">
+      <div>
+        <q>BRINDO À CASA, BRINDO À VIDA, MEUS AMORES, MINHA FAMÍLIA ...</q>
+        <span>Mar de gente (O RAPPA)</span>
+      </div>
+    </section>
    </>
   )
 }
