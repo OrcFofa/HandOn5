@@ -4,7 +4,7 @@ import {FooterCart} from "../components/Cart/FooterCart";
 import {HeaderCart} from "../components/Cart/HeaderCart";
 import {Informations} from "../components/Cart/Informations";
 import {useSelector} from "react-redux";
-import "../styles/cart.css"
+import "../styles/Cart.css"
 
 export const Cart = () => {
 
