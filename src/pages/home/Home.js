@@ -6,13 +6,11 @@ function Home(){
   return (
    <>
     <section className="intro-bg">
-      <div className="container-xxl d-flex justify-content-between">
-        <div><img src={Logo} alt="Logo da Breja"/></div>
+      <div className="container-xxl d-flex">
+        <div className="container-img"><img src={Logo} alt="Logo da Breja"/></div>
         <div>
-          <h1>CONHEÇA E APRECIE NOSSAS CERVEJAS</h1>
-          <p>Acreditamos que cerveja artesanal de qualidade é para todo mundo, e por isso temos uma linha bem completa de produtos desde cervejas mais leves e refrescantes até cerveja mais complexas e intensas.</p>
-          <p>Se prepare para uma experiência única com a melhor cerveja já produzida!</p>
-          <p>Afinal, a vida merece um brinde!</p>
+          <h1>CONHEÇA<br/><span className="title-detail-p">NOSSAS</span><br/><span className="title-detail-s">CERVEJAS</span></h1>
+          <p>SE PREPARE PARA UMA EXPERIÊNCIA ÚNICA, COM A MELHOR CERVEJA JÁ PRODUZIDA.</p>
         </div>
       </div>
     </section>
@@ -24,7 +22,7 @@ function Home(){
           <h2>DESTAQUE</h2>
           <div className="highlight">
             <h3>DESCRIÇÃO</h3>
-            <p>A BREJA Lager é uma cerveja leve e refrescante, com amargor bem inserido, notas floraise e condimentos de lúpulo. Cerveja ideal para dias quentes.</p>
+            <p>A BREJA Lager é uma cerveja leve e refrescante, com amargor bem inserido, notas floraise e condimentos de lúpulo. <br/>Cerveja ideal para dias quentes.</p>
           </div>
           <div className="highlight">
             <h3>HARMONIZAÇÃO</h3>
