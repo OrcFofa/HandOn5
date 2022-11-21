@@ -9,4 +9,5 @@
 .btn.btn-secondary.btnFinish:hover{
     background-color: #2D910F;
     color: #fff;
+    transition: 0.5s;
 }

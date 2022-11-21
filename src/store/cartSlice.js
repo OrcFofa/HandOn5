@@ -57,7 +57,7 @@ const cartSlice = createSlice({
                     position: "bottom-left",
                     }) 
             }
-        }
+        },
     },
 
 })
