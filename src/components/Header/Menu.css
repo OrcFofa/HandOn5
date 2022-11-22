@@ -3,7 +3,6 @@
     margin: 0;
     font-family: 'Arya';
     justify-content:space-around;
-    color:#fff;
 }
 
 .menu{
@@ -14,7 +13,12 @@
     background-color: black;
 }
 
-.links:hover{
+.path{
+    color: #fff;
+    text-decoration: none;
+}
+
+.path:hover{
     color: #FF8A20;
 }
 

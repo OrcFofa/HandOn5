@@ -15,7 +15,7 @@ import "../Header/Menu.css"
 
 function Menu ()  {
     return (
-      <Container className="menu" fluid>
+      <Container className="menu" fluid xs={1} md={5} lg={6}>
         <Row>
         <Navbar>
           <Navbar.Brand href="#home">
@@ -23,10 +23,10 @@ function Menu ()  {
           </Navbar.Brand>
              
           <Navbar.Collapse >
-            <Nav.Link className="links" href="#links">Home</Nav.Link>
-            <Nav.Link className="links" href="#link">Sobre</Nav.Link>
-            <Nav.Link className="links" href="#link2">Cervejas </Nav.Link>
-            <Nav.Link className="links" href="../../pages/Cart">Carrinho<img src={cart} width="25" height="25" alt="Imagem do carrinho de compras"/><Badge id="badgenav" bg="">9</Badge></Nav.Link>
+            <Nav.Link className="path" href="#links">Home</Nav.Link>
+            <Nav.Link className="path" href="#link">Sobre</Nav.Link>
+            <Nav.Link className="path" href="#link2">Cervejas </Nav.Link>
+            <Nav.Link className="path" href="../../pages/Cart">Carrinho<img src={cart} width="25" height="25" alt="Imagem do carrinho de compras"/><Badge id="badgenav" bg="">9</Badge></Nav.Link>
             
             <Nav>
             <Nav.Link id="barrier" className="icones" href="#link4"><img src={tiktok} width="25" height="25" alt="Logo do TikTok"/></Nav.Link>
