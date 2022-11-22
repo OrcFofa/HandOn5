@@ -10,14 +10,14 @@ import tiktok from "../../assets/img/tiktok.png"
 import cart from "../../assets/img/cart.png"
 import insta from "../../assets/img/insta.png"
 import spotify from "../../assets/img/spotify.png"
-import "./Menu.css"
+import "../Header/Menu.css"
 
 
 function Menu ()  {
     return (
-      <Container fluid>
+      <Container className="menu" fluid>
         <Row>
-        <Navbar className="menu">
+        <Navbar>
           <Navbar.Brand href="#home">
             <img src={logo} width="100" height="45" alt="Logo da Breja"/>
           </Navbar.Brand>
