@@ -14,6 +14,7 @@ export const Cart = () => {
 
     return (
         <>
+        <div className="navbar"></div>
             <div className="buttonComeBack">
                 <ButtonComeBack/>
             </div>
@@ -39,7 +40,6 @@ export const Cart = () => {
                                         quantity={cartItem.cartQuantity}
                                         cartItem={cartItem}
                                         product={cartItem}
-                                        //  total={cartItem.price * cartItem.cartQuantity}
                                     />
                                 )))
                             } </div>

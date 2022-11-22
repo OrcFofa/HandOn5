@@ -11,27 +11,27 @@ export const Products = () => {
         img: "https://s3-alpha-sig.figma.com/img/6f31/ad4b/f3e19fd5fd6b2f8514428afc5fb4847d?Expires=1669593600&Signature=HlIfczu-UY2vh1NIoq1XbWziwvE7G-EP80duKItfhYNoYG-FYZRRKSkf3AxzzDnJIBVZn8LzDyYmLu8WYzhdJHjmMh~aKQm2EHGCi3UgLAvs0nZ66k9LoauSK4dJeDipZVbu1xAp7vN9aJxHJnznV1aYud-JIUtTbN2fMrNWk8GbuNqND2RqdIxFEJmSMeuOOldIB0vdw2MmoF0-zWEOCtopTXQ5UqCF1k6fAbW9TztJsICqWeu-pX55G-Zv5kFZaWaBmkng4M4a-71BO55IyaYv9ezOnfFE7JsfpYxXczZFYxHguZLJnJGh1DyeJScUjLcZOevbOd6qzsMtA5K9Hw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
         title: "Cerveja Breja IPA 500ML",
         delivery: "a calcular",
-        price: "R$25,00"
+        price: "25,00"
     },
     {   id: "2",
         img: "https://s3-alpha-sig.figma.com/img/6f31/ad4b/f3e19fd5fd6b2f8514428afc5fb4847d?Expires=1669593600&Signature=HlIfczu-UY2vh1NIoq1XbWziwvE7G-EP80duKItfhYNoYG-FYZRRKSkf3AxzzDnJIBVZn8LzDyYmLu8WYzhdJHjmMh~aKQm2EHGCi3UgLAvs0nZ66k9LoauSK4dJeDipZVbu1xAp7vN9aJxHJnznV1aYud-JIUtTbN2fMrNWk8GbuNqND2RqdIxFEJmSMeuOOldIB0vdw2MmoF0-zWEOCtopTXQ5UqCF1k6fAbW9TztJsICqWeu-pX55G-Zv5kFZaWaBmkng4M4a-71BO55IyaYv9ezOnfFE7JsfpYxXczZFYxHguZLJnJGh1DyeJScUjLcZOevbOd6qzsMtA5K9Hw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
         title: "Cerveja Breja IPA 1LT",
         delivery: "a calcular",
-        price: "R$30,00"
+        price: "30,00"
     },
 
     {   id: "3",
     img: "https://s3-alpha-sig.figma.com/img/6f31/ad4b/f3e19fd5fd6b2f8514428afc5fb4847d?Expires=1669593600&Signature=HlIfczu-UY2vh1NIoq1XbWziwvE7G-EP80duKItfhYNoYG-FYZRRKSkf3AxzzDnJIBVZn8LzDyYmLu8WYzhdJHjmMh~aKQm2EHGCi3UgLAvs0nZ66k9LoauSK4dJeDipZVbu1xAp7vN9aJxHJnznV1aYud-JIUtTbN2fMrNWk8GbuNqND2RqdIxFEJmSMeuOOldIB0vdw2MmoF0-zWEOCtopTXQ5UqCF1k6fAbW9TztJsICqWeu-pX55G-Zv5kFZaWaBmkng4M4a-71BO55IyaYv9ezOnfFE7JsfpYxXczZFYxHguZLJnJGh1DyeJScUjLcZOevbOd6qzsMtA5K9Hw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
     title: "Cerveja Breja 1LT",
     delivery: "a calcular",
-    price: "R$35,00"
+    price: "35,00"
    },
 
    {  id: "4",
    img: "https://s3-alpha-sig.figma.com/img/6f31/ad4b/f3e19fd5fd6b2f8514428afc5fb4847d?Expires=1669593600&Signature=HlIfczu-UY2vh1NIoq1XbWziwvE7G-EP80duKItfhYNoYG-FYZRRKSkf3AxzzDnJIBVZn8LzDyYmLu8WYzhdJHjmMh~aKQm2EHGCi3UgLAvs0nZ66k9LoauSK4dJeDipZVbu1xAp7vN9aJxHJnznV1aYud-JIUtTbN2fMrNWk8GbuNqND2RqdIxFEJmSMeuOOldIB0vdw2MmoF0-zWEOCtopTXQ5UqCF1k6fAbW9TztJsICqWeu-pX55G-Zv5kFZaWaBmkng4M4a-71BO55IyaYv9ezOnfFE7JsfpYxXczZFYxHguZLJnJGh1DyeJScUjLcZOevbOd6qzsMtA5K9Hw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
    title: "Cerveja IPA 1LT",
    delivery: "a calcular",
-   price: "R$40,00"
+   price: "40,00"
     }
 ]
 
@@ -48,7 +48,6 @@ export const Products = () => {
           <span>{product.delivery}</span>
           <span>{product.price}</span>
           <span></span>
-          <span>R$25,00</span>
           <button onClick={() => dispatch(addToCart(product))}>adicionar no carrinho</button>
         </>
     ))
