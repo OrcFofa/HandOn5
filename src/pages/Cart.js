@@ -1,16 +1,22 @@
-import {useSelector} from "react-redux";
+import { useEffect } from "react";
+import {useDispatch, useSelector} from "react-redux";
 import {ButtonComeBack} from "../components/Cart/ButtonComeBack";
 import {CardProduct} from "../components/Cart/CardProduct";
 import { CartEmpty } from "../components/Cart/CartEmpty";
 import {FooterCart} from "../components/Cart/FooterCart";
 import {HeaderCart} from "../components/Cart/HeaderCart";
-import {Informations} from "../components/Cart/Informations";
+import { getTotal } from "../store/cartSlice";
 import "../styles/cart.css"
 
 
 export const Cart = () => {
 
     const cart = useSelector((state) => state.cart)
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getTotal())
+    })
 
     return (
         <>
@@ -33,8 +39,8 @@ export const Cart = () => {
                                 {
                                 cart.cartItems?.map((cartItem => (
                                     <CardProduct 
-                                        key={cartItem.id}
-                                        img={cartItem.img}
+                                        key={cartItem.productId}
+                                        img={cartItem.image}
                                         title={cartItem.title}
                                         price={cartItem.price}
                                         quantity={cartItem.cartQuantity}
