@@ -20,7 +20,8 @@ export const Cart = () => {
 
     return (
         <>
-        <div className="navbar"></div>
+        <div className="navbar">
+        </div>
             <div className="buttonComeBack">
                 <ButtonComeBack/>
             </div>
