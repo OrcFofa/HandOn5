@@ -4,7 +4,7 @@ import "./home.css";
 
 function Home(){
   return (
-   <>
+   <main>
     <section className="intro-bg">
       <div className="container-xxl d-flex">
         <div className="container-img"><img src={Logo} alt="Logo da Breja"/></div>
@@ -43,7 +43,7 @@ function Home(){
         <span>Mar de gente (O RAPPA)</span>
       </div>
     </section>
-   </>
+   </main>
   )
 }
 

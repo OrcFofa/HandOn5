@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arya:wght@400;700&display=swap');
 
-body {
+main {
   color: #000000;
   font-family: 'Arya', sans-serif;
   background: #F5EEEE;
@@ -240,16 +240,13 @@ body {
 }
 
 .quote-bg {
-  background-image: url("../../assets/home-img/banner.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url("../../assets/home-img/banner.png") no-repeat center/cover;
 }
 
 .quote-bg div {
+  max-width: 922px;
   color: #ffffff;
   font-family: 'Alfa Slab One';
-  max-width: 922px;
   padding: 330px 12px 60px 12px;
   margin-inline: auto;
 }
