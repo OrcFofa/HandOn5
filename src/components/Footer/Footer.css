@@ -3,6 +3,7 @@
     margin: 0;
     background-color: black;
     color: #fff;
+    font-family: 'Arya';
 }
 
 p{
@@ -21,4 +22,9 @@ p{
     font-style: normal;
     font-size: 4vh;
     line-height: 4vh;
+}
+
+.imag{
+    width: 3vh;
+    height: 3vh;
 }
