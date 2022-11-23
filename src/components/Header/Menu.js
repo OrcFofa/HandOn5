@@ -28,8 +28,8 @@ function Menu ()  {
             <Nav.Link id="colors" href="/carrinho">Carrinho<img src={cart} id="ims2" alt="Imagem do carrinho de compras"/><Badge id="badgenav" bg="">9</Badge></Nav.Link>
             
             <Nav>
-            <Nav.Link href="#link4"><img src={tiktok} className="imgs" alt="Logo do TikTok"/></Nav.Link>
-            <Nav.Link href="#link5"><img src={insta} className="imgs" alt="Logo do Instagram"/></Nav.Link>
+            <Nav.Link href="https://www.tiktok.com/@cervejaria_breja?_t=8Xa94fwGcKM&_r=1"><img src={tiktok} className="imgs" alt="Logo do TikTok"/></Nav.Link>
+            <Nav.Link href="https://www.instagram.com/p/ClSEycCslDN/?igshid=MDJmNzVkMjY="><img src={insta} className="imgs" alt="Logo do Instagram"/></Nav.Link>
             <Nav.Link href="https://open.spotify.com/playlist/0ksJT1bvv7iCcML6sffMJX?si=IF01bM4MR-W59AvnjrEfMw&utm_source=copy-link"><img src={spotify} className="imgs" alt="Logo do Spotify"/></Nav.Link>
             </Nav>
         </Navbar.Collapse> 
