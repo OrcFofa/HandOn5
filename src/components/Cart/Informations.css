@@ -1,0 +1,19 @@
+.informations {
+    float: right;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}
+
+.informations div{
+    display: flex;
+    width: 240px;
+    border: 1px solid #E1DCDC;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.informations div span{
+     flex: 1;
+     margin-left: 0.5rem;   
+}

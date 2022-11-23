@@ -1,12 +1,12 @@
-import {NavBar} from "../components/Header/NavBar";
+import Menu from "../components/Header/Menu"
 import {Formss} from "../components/Forms/Forms";
-import './Form.css'
+import '../styles/Form.css'
 
 
 export default function Formulary (){
     return(
 <>
-        <NavBar/>
+        <Menu/>
         <Formss/>
 </>
 )

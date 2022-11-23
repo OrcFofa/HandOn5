@@ -1,0 +1,20 @@
+.cart-product-quantity {
+    display: flex;
+    margin-left: 1rem;
+  }
+
+  .cart-product-quantity button {
+    width: 2rem;
+    height: 1.8rem;
+    background: none;
+    font-weight: 700;
+    border: 1px solid #000000;
+    cursor: pointer;
+  }
+  .cart-product-quantity .count {
+    width: 2rem;
+    height: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #000000;
+  }

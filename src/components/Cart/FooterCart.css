@@ -1,0 +1,8 @@
+.footerCart{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnFooter {
+   margin: 2rem 2rem 2rem 2rem;
+}
