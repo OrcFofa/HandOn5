@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {ButtonComeBack} from "../components/Cart/ButtonComeBack";
+import {ButtonComeBack} from "../components/ButtonComeBack/ButtonComeBack";
 import {CardProduct} from "../components/Cart/CardProduct";
 import { CartEmpty } from "../components/Cart/CartEmpty";
 import {FooterCart} from "../components/Cart/FooterCart";

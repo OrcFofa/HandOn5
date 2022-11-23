@@ -35,4 +35,22 @@
     transition: 0.5s;
 }
 
+@media (max-width: 900px) and (min-width: 710px){
+
+.bodyCartEmpty{
+    max-height: 40vh;
+}
+}
+
+@media (max-width:500px){
+
+    .bodyCartEmpty{
+        max-height: 55vh;
+    }
+
+    .iconCart {
+        margin-top: 2rem;
+    }  
+
+}
 
