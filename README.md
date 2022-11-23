@@ -6,13 +6,12 @@
 
 ## 📋 <strong>Enunciado</strong>
 
-<p>Uma empresa de cervejas artesanais precisa de uma aplicação web para poder mostrar e realizar a venda de suas cerveja.s</p>
+<p>Uma empresa de cervejas artesanais precisa de uma aplicação web para poder mostrar e realizar a venda de suas cervejas.</p>
 <br>
 
 ## 	🛠️<strong> Pré-requisitos </strong>
 
  1. Necessário que tenha instalado o Node.js - (https://nodejs.org/en/)
-<br>
 <br>
 
 ## ⚙️<strong>Inicialização do projeto</strong>
@@ -21,7 +20,6 @@ Para executá-lo:
 
     1. Digitar "npm install" no seu console e dar enter.
     2. Depois digitar "npm run start" e enter novamente.
-<br>
 
 ## 💾 Backend do projeto
 [Link do repositório backend](https://github.com/MonicaIacy/breja-backend)
@@ -55,6 +53,8 @@ Para executá-lo:
    <td align="center"> <img src="https://avatars.githubusercontent.com/u/68698735?v=4" width=175/></br><a href="https://github.com/halineds">Haline Dias</a>
    </td>
   <td align="center"> <img src="https://avatars.githubusercontent.com/u/91497473?v=4" width=175/></br><a href="https://github.com/Joaogarske">João Garske</a>
+   </td>
+    <td align="center"> <img src="https://avatars.githubusercontent.com/u/84979000?v=4" width=175/></br><a href="https://github.com/socorrosans">Socorro Santos</a>
    </td>
 </table>
 
