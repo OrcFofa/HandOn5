@@ -20,6 +20,23 @@ margin-left:9.5rem;
     overflow-y: auto;
 }
 
+.cardProduct::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+.cardProduct::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+
+.cardProduct::-webkit-scrollbar-thumb {
+    background: #FF8A20;
+    border-radius: 5px;
+}
+
+
 .cartFooter{
     width: 95%;
     border: 1px solid #000000;

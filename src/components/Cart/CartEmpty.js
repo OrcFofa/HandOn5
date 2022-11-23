@@ -9,7 +9,7 @@ export const CartEmpty = () => {
         <h1>O carrinho está vazio</h1>
         <span>adicione produtos clicando no botão</span>
         <span>"comprar" na página de produtos</span>
-        <Button href="/cervejas" tag="a">VISUALIZAR CERVEJAS</Button>
+        <Button href="/cervejas" tag="a">VER CERVEJAS</Button>
     </div>
   )
 }
