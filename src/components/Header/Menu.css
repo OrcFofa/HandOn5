@@ -20,20 +20,25 @@
     height: 4vh;
 }
 
-.imgs{
+
+.iconHeader{
+    color:#fff;
     width: 4vh;
     height: 4vh;
 }
 
-.imgs:hover{
+.iconHeader:hover{
     border-bottom: 2px solid #FF8A20;
 }
+
 
 #badgenav{
     background-color: #FF8A20;
     color:#fff;
     border-radius: 50vh;
-    padding: 1.5vh 2vh;
+    padding: 0.2vh 0.8vh;
+    position: absolute;
+    margin-left: -0.4rem;
 }
 
 #colors{
@@ -46,4 +51,15 @@
 
 .navbar-toggler-icon{
     background-color: #ffffff;
+}
+
+.sectionCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.iconCartHeader{
+    margin-left: 1rem;
 }

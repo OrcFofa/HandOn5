@@ -1,6 +1,6 @@
 .feet{
-    padding: 0;
-    margin: 0;
+    padding: 2rem;
+    max-height: 35vh;
     background-color: black;
     color: #fff;
     font-family: 'Arya';
@@ -8,23 +8,21 @@
 
 .frase{
     text-align:start;
-    font-family: 'Arya';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3vh;
-    line-height: 3vh;
-    padding: 1vh;
+    font-size: 2vh;
+    line-height: 2vh;
+    margin-left: 4rem;
 }
 
 #p1{
     text-align:start;
-    font-family: 'Arya';
-    font-style: normal;
     font-size: 4vh;
-    line-height: 4vh;
+    line-height: 3.5vh;
+    margin-bottom: 1.5rem;
+    margin-left: 4rem;
 }
 
-.imag{
+.iconFooter{
     width: 3vh;
     height: 3vh;
+    margin-right: 0.5rem;
 }

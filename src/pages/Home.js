@@ -1,13 +1,11 @@
-import Logo from "../../assets/home-img/logo.png";
-import Beer from "../../assets/home-img/breja-larger.png";
-import Menu from "../../components/Header/Menu.js";
-import Footer from "../../components/Footer/Footer.js"
-import "./home.css";
+import Logo from "../assets/img/home-img/logo.png";
+import Beer from "../assets/img/home-img/breja-larger.png";
+import Footer from "../components/Footer/Footer.js"
+import "../styles/home.css"
 
 function Home(){
   return (
   <>
-  <Menu/>
    <main>
     <section className="intro-bg">
       <div className="container-xxl d-flex">

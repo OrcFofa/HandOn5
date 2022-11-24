@@ -64,7 +64,7 @@ main {
 
 .intro-bg {
   max-width: 1500px;
-  background-image: url("../../assets/home-img/home-bg.png");
+  background-image: url("../assets/img/home-img/home-bg.png");
   background-repeat: no-repeat;
   margin-inline: auto;
 }
@@ -240,7 +240,7 @@ main {
 }
 
 .quote-bg {
-  background: url("../../assets/home-img/banner.png") no-repeat center/cover;
+  background: url("../assets/img/home-img/banner.png") no-repeat center/cover;
 }
 
 .quote-bg div {
