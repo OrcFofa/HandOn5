@@ -1,6 +1,8 @@
-.text{
+.title{
      margin-top: 50px;
-    font-size: 27px;
+     font-size: 30px;
+     margin-right: 110px;
+    
 }
 .form{
     font-size: 26.7907px;
@@ -36,7 +38,7 @@
     cursor: pointer;
     background-color: #2D910F;
 }
-.texto{
+.continuar{
     margin-top: 20px;
     font-size: 26px;
     line-height: 30px;

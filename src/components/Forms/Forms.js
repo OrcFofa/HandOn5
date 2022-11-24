@@ -5,7 +5,7 @@ export const Formss = () => {
   return (
   <> 
   <section> 
-    <h5 className="text d-flex justify-content-center"> 
+    <h5 className="title d-flex justify-content-center"> 
     SEU PEDIDO SERÁ DIRECIONADO PARA O WHATSAPP, INFORME SEUS DADOS 
     </h5> 
     <container className="container d-flex justify-content-center"> 
@@ -79,7 +79,7 @@ export const Formss = () => {
   <div className="buttons">
   <Button 
         id="button" >
-        <p className="texto"> 
+        <p className="continuar"> 
         CONTINUAR 
         </p>  
   </Button>
