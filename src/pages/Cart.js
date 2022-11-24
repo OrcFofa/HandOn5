@@ -1,17 +1,27 @@
-import {ButtonComeBack} from "../components/Cart/ButtonComeBack";
+import { useEffect } from "react";
+import {useDispatch, useSelector} from "react-redux";
+import {ButtonComeBack} from "../components/ButtonComeBack/ButtonComeBack";
 import {CardProduct} from "../components/Cart/CardProduct";
+import { CartEmpty } from "../components/Cart/CartEmpty";
 import {FooterCart} from "../components/Cart/FooterCart";
 import {HeaderCart} from "../components/Cart/HeaderCart";
-import {Informations} from "../components/Cart/Informations";
-import {useSelector} from "react-redux";
+import { getTotal } from "../store/cartSlice";
 import "../styles/cart.css"
+
 
 export const Cart = () => {
 
-    const cart = useSelector((state) => state.cart)
+    const cart = useSelector((state) => state.cart);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getTotal())
+    })
 
     return (
         <>
+        <div className="navbar">
+        </div>
             <div className="buttonComeBack">
                 <ButtonComeBack/>
             </div>
@@ -20,33 +30,34 @@ export const Cart = () => {
             </div>
             <div className="cart">
                 <div className="container">
-                    <HeaderCart/> 
                     {
-                    cart.cartItems.lenght === 0 ? (
-                        <div>
-                            <p>Seu carrinho está vazio</p>
-                        </div>
+                    cart.cartItems.length === 0 ? (
+                        <CartEmpty/>
                     ) : (
-                        <div className="cardProduct">
-                            {cart.cartItems?.map((cartItem => (
-                                 <CardProduct
-                                 key={cartItem.id}
-                                 img={cartItem.img}
-                                 title={cartItem.title}
-                                 price={cartItem.price}
-                                 quantity={cartItem.cartQuantity}
-                                //  total={cartItem.price * cartItem.cartQuantity}
-                                 />
-                            ))) }
-                        </div>
-                    )}
-                    <div className="cartInformations">
-                        <Informations/>
-                    </div>
-                    <div className="cartFooter">
-                        <FooterCart/>
-                    </div>
-                </div>
+                        <>
+                            <HeaderCart/>
+                            <div className="cardProduct">
+                                {
+                                cart.cartItems?.map((cartItem => (
+                                    <CardProduct 
+                                        key={cartItem.productId}
+                                        img={cartItem.image}
+                                        title={cartItem.title}
+                                        price={cartItem.price}
+                                        quantity={cartItem.cartQuantity}
+                                        cartItem={cartItem}
+                                        product={cartItem}
+                                    />
+                                )))
+                            } </div>
+                            <div className="cartFooter">
+                                <FooterCart 
+                                subtotal={cart.cartTotalAmount}
+                                total={cart.cartTotalAmount}/>
+                            </div>
+                        </>
+                    )
+                } </div>
             </div>
         </>
 

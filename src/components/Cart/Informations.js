@@ -1,11 +1,17 @@
 import "./Informations.css"
 
-export const Informations = () => {
+export const Informations = ({subtotal, total}) => {
+
+    let BRreal = new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+    });
+
     return (
         <div className="informations">
             <div>
                 <span>SUBTOTAL</span>
-                <span>R$25,00</span>
+                <span>{BRreal.format(subtotal)}</span>
             </div>
             <div>
                 <span>ENTREGA</span>
@@ -15,7 +21,7 @@ export const Informations = () => {
             </div>
             <div>
                 <span>TOTAL</span>
-                <span>R$25,00</span>
+                <span>{BRreal.format(total)}</span>
             </div>
         </div>
     )

@@ -1,37 +1,49 @@
 *{
-    padding: 0;
-    margin: 0;
-    font-family: 'Arya';
-    justify-content:space-around;
+    justify-content: space-around ;
 }
 
 .menu{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
-    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arya';
+    font-size: 3vh;
+    background-color: #000;
 }
 
-.links{
-    color: #fff;
+#ims{
+    width: 20vh;
+    height: 10vh;
 }
 
-.links:hover{
-    color: #FF8A20;
+#ims2{
+    width: 4vh;
+    height: 4vh;
 }
 
-#barrier{
-    border-left: 2px solid #fff;
+.imgs{
+    width: 4vh;
+    height: 4vh;
 }
 
-.icones:hover{
+.imgs:hover{
     border-bottom: 2px solid #FF8A20;
 }
 
 #badgenav{
-    color:#fff;
     background-color: #FF8A20;
-    border-radius: 50px;
-    padding: 5px 10px;
+    color:#fff;
+    border-radius: 50vh;
+    padding: 1.5vh 2vh;
+}
+
+#colors{
+    color: #fff;
+}
+
+#colors:hover{
+    color: #FF8A20;
+}
+
+.navbar-toggler-icon{
+    background-color: #ffffff;
 }

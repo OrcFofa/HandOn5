@@ -1,0 +1,30 @@
+.feet{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    font-family: 'Arya';
+}
+
+.frase{
+    text-align:start;
+    font-family: 'Arya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    line-height: 3vh;
+    padding: 1vh;
+}
+
+#p1{
+    text-align:start;
+    font-family: 'Arya';
+    font-style: normal;
+    font-size: 4vh;
+    line-height: 4vh;
+}
+
+.imag{
+    width: 3vh;
+    height: 3vh;
+}

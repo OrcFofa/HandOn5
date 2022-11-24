@@ -3,6 +3,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 3rem;
 }
 
 .buttonComeBack{
@@ -15,17 +16,34 @@ margin-left:9.5rem;
 
 .cardProduct{
     width: 95%;
+    max-height: 250px;
+    overflow-y: auto;
 }
 
-.cartInformations {
-    width: 95%;
-    border: 1px solid #000000;
+.cardProduct::-webkit-scrollbar {
+    width: 6px;
 }
+
+
+.cardProduct::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+
+.cardProduct::-webkit-scrollbar-thumb {
+    background: #FF8A20;
+    border-radius: 5px;
+}
+
 
 .cartFooter{
     width: 95%;
     border: 1px solid #000000;
 }
 
-
+.navbar {
+    background-color: #000000;
+    height: 12vh;
+}
 

@@ -1,7 +1,16 @@
+import { useDispatch } from "react-redux";
+import { removeFromCart } from "../../store/cartSlice";
 import { ButtonQuantity } from "./ButtonQuantity";
 import "./CardProduct.css"
 
-export const CardProduct = ({id, img, title, price, total, quantity}) => {
+export const CardProduct = ({id, img, title, price, total, quantity, cartItem, product}) => {
+
+    const dispatch = useDispatch();
+
+    let BRreal = new Intl.NumberFormat('pt-BR', {
+      style: 'currency',
+      currency: 'BRL',
+  });
 
     return (
         <div className="product">
@@ -11,11 +20,11 @@ export const CardProduct = ({id, img, title, price, total, quantity}) => {
                   <span>{title}</span>
                   </div>
                   <span>a calcular</span>
-                  <span>{price}</span>
-                  <span><ButtonQuantity quantity={quantity}/></span>
-                  <span className="total">R$25,00</span>
+                  <span>{BRreal.format(parseFloat(price))}</span>
+                  <span><ButtonQuantity quantity={quantity} product={product}/></span>
+                  <span className="total">{BRreal.format(parseFloat(price) * parseFloat(quantity))}</span>
                   <div className="contentBtn">
-                  <button className="btnRemove">X</button>
+                  <button className="btnRemove" onClick={() => dispatch(removeFromCart(cartItem))}>X</button>
                   </div>
                 </>
          </div>
