@@ -5,7 +5,7 @@ import "./CartEmpty.css"
 export const CartEmpty = () => {
   return (
     <div className="bodyCartEmpty">
-          <RiShoppingCart2Line className="iconCart"/>
+        <RiShoppingCart2Line className="iconCart"/>
         <h1>O carrinho está vazio</h1>
         <span>adicione produtos clicando no botão</span>
         <span>"comprar" na página de produtos</span>
