@@ -9,10 +9,10 @@ import Footer from "../components/Footer/Footer";
 export function Sobre() {
     return (
         <>
+        <div className="background-about">
         <div className="buttonComeBack">
                 <ButtonComeBack/>
             </div>
-
         <section className="container flex">
             <div>
             <h1> QUEM É A BREJA ? </h1>
@@ -23,6 +23,7 @@ export function Sobre() {
             </div>
             <Text />
         </section>
+        </div>
         <Footer/>
                     
         </>

@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     font-family: 'Alfa Slab One';
 }
 section .container {
@@ -32,22 +30,25 @@ section .container {
     left: -50px;
     bottom: -50px;
 }
-
+.background-about{
+    background-color:#F5EEEE;
+}
 .flex {
     display: flex;
     align-items: center;
 }
 
 .container2{
-    margin: 30px;
-    margin-top: 300px;
+    margin: 40px;
+    margin-top: 200px;
 }
 .container2 h2 {
     Font-family: Arya;
     font-weight: 400;
     font-size: 48px;
+    size: 24px;
     width: 365px;
-    height: 80.13px;
+    height: 80px;
     left: 891px;
 }
 
@@ -55,8 +56,8 @@ section .container {
     font-family: 'Alfa Slab One'; 
     height: 200px; 
     left: 891px;
-    margin-top: 100px; 
-    margin-right: 50px;
+    margin-top: 5vh; 
+    margin-right: 5vh;
     weight: 400;
     Size: 36px;
     line-height: 40px;
@@ -66,9 +67,9 @@ section .container {
 .container2 .text2  {
     font-family: Arya;
     weight: 400;
-    size: 36px;
-    Line-height: 30px;
+    font-size: 50px;
+    Line-height: 3vh;
     color: #FF8A20;
-    margin-top: 100px;
+    margin-top: 15vh;
     width:420px;
 }
