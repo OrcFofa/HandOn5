@@ -7,7 +7,7 @@ import "../styles/growler.css"
 export default function Growler() {
     return (
         <>
-        <section>
+        <section className="section">
         <Menu/>
        <div className="but"> <ButtonComeBack /></div> 
       
