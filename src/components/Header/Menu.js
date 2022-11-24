@@ -18,7 +18,7 @@ function Menu ()  {
         <Row>
         <Navbar>
           <Navbar.Brand href="#home">
-            <img src={logo} width="100" height="45" alt="Logo da Breja"/>
+            <img src={logo} width="50" height="45" alt="Logo da Breja"/>
           </Navbar.Brand>
              
           <Navbar.Collapse >
