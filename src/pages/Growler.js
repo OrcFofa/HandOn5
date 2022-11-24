@@ -1,6 +1,7 @@
 import Menu from "../components/Header/Menu"
 import ImgGrowler  from "../assets/img/imggrowler.png"
-import { ButtonComeBack } from "../components/Cart/ButtonComeBack"
+import { ButtonComeBack } from "../components/ButtonComeBack/ButtonComeBack"
+import Footer from "../components/Footer/Footer"
 import "../styles/growler.css"
 
 
@@ -35,6 +36,7 @@ export default function Growler() {
   </div>
 </div>
 </section>
+<Footer/>
   </>
     )
 }
