@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arya:wght@400;700&display=swap');
+
+main {
+  color: #000000;
+  font-family: 'Arya', sans-serif;
+  background: #F5EEEE;
+}
+
+.container-xxl {
+  padding-block: 100px 80px;
+  column-gap: 80px;
+}
+
+.intro-bg h1 {
+  color:#FF8A20;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 96px;
+  line-height: 0.6;
+  padding-block: 30px 50px;
+  margin-bottom: 25px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #a35815;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.intro-bg .d-flex {
+  column-gap: 35px;
+  align-items: center;
+}
+
+.title-detail-p {
+  color: #000000;
+  font-size: 48px;
+  padding-left: 50px;
+}
+
+.title-detail-s {
+  font-size: 64px;
+  padding-left: 100px;
+}
+
+.intro-bg h1::first-letter {
+  font-size: 128px;
+}
+
+.intro-bg p {
+  max-width: 18ch;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.1;
+  padding-left: 80px;
+  margin-inline: auto;
+  margin-bottom: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ff8a20;
+}
+
+.intro-bg img {
+  max-width: 100%;
+  border: 2px solid #F5EEEE;
+  border-radius: 9px;
+}
+
+.intro-bg {
+  max-width: 1500px;
+  background-image: url("../../assets/home-img/home-bg.png");
+  background-repeat: no-repeat;
+  margin-inline: auto;
+}
+
+@media (max-width: 1200px) {
+  .intro-bg h1{
+    font-size: 70px;
+    line-height: 0.8;
+  }
+
+  .intro-bg h1::first-letter{
+    font-size: 85px;
+  }
+
+  .intro-bg p {
+    max-width: 25ch;
+    font-size: 30px;
+    padding-left: 60px;
+  }
+  
+  .title-detail-p{
+    font-size: 40px;
+    padding-left: 20px;
+  }
+
+  .title-detail-s{
+    font-size: 54px;
+    padding-left: 50px;
+  }
+}
+
+@media(max-width: 850px){
+  .intro-bg .d-flex {
+    column-gap: 15px;
+  }
+
+  .intro-bg h1{
+    font-size: 50px;
+    line-height: 1;
+  }
+
+  .intro-bg h1::first-letter{
+    font-size: 65px;
+  }
+
+  .intro-bg p {
+    font-size: 28px;
+    padding-left: 30px;
+  }
+  
+  .title-detail-p{
+    font-size: 35px;
+    padding-left: 10px;
+  }
+
+  .title-detail-s{
+    font-size: 40px;
+    padding-left: 20px;
+  }
+}
+
+.highlights-bg {
+  background-color: #0C0B0B;
+}
+
+.highlights-bg h2 {
+  grid-column: span 2;
+  align-self: start;
+  justify-self: center;
+  color: #DA6A04;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 48px;
+  font-weight: 400;
+  border-bottom: 1px solid #E9E0E0;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+.highlights-bg h3 {
+  color: #DA6A04;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.highlights-bg p {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.highlights-bg img {
+  max-width: 100%;
+  align-self: flex-start;
+}
+
+.highlights {
+  padding-block: 35px;
+}
+
+.highlights span {
+  display: block;
+  color: #DA6A04;
+  font-size: 24px;
+  padding-right: 10px;
+  margin-block: 20px;
+  font-weight: 400;
+}
+
+.highlights > .highlight {
+  align-self: center;
+}
+
+.highlight {
+  max-width: 290px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 100px;
+}
+
+@media(max-width: 1200px){
+  .container-img {
+    max-width: 200px;
+  }
+
+  .highlights-bg .container-xxl {
+    column-gap: 30px;
+  }
+
+  .grid {
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .highlights h2 {
+    font-size: 32px;
+  }
+
+  .highlights h3 {
+    font-size: 24px;
+  }
+  
+  .highlights span {
+    font-size: 22px;
+  }
+
+  .highlights.d-flex {
+    flex-wrap: wrap;
+  }
+
+}
+
+@media (max-width: 850px){
+  .highlights.d-flex {
+    justify-content: center !important;
+    row-gap: 20px;
+  }
+
+  .highlights-bg .container-img {
+    order: 1;
+  }
+
+  .grid {
+    order: 3;
+  }
+
+  .info {
+    order: 2;
+  }
+}
+
+.quote-bg {
+  background: url("../../assets/home-img/banner.png") no-repeat center/cover;
+}
+
+.quote-bg div {
+  max-width: 922px;
+  color: #ffffff;
+  font-family: 'Alfa Slab One';
+  padding: 330px 12px 60px 12px;
+  margin-inline: auto;
+}
+
+.quote-bg span {
+  display: block;
+  font-size: 13px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.quote-bg q {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
