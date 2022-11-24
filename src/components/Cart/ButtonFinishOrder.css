@@ -1,5 +1,5 @@
 .btn.btn-secondary.btnFinish{
-    background-color: #DA6A04;
+    background-color: #FF8A20;
     color:#000000;
     font-size: 1rem;
     padding: 10px 20px;
@@ -9,4 +9,5 @@
 .btn.btn-secondary.btnFinish:hover{
     background-color: #2D910F;
     color: #fff;
+    transition: 0.5s;
 }
