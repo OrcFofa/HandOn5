@@ -1,11 +1,18 @@
 import "./Sobre.css";
 import React from "react";
-import ImageBack from '../../src/assets/image-back.png';
-import ImageFront from '../../src/assets/image-front.png';
+import {ButtonComeBack} from "../components/Cart/ButtonComeBack"
+import ImageBack from '../../src/assets/img/image-back.png';
+import ImageFront from '../../src/assets/img/image-front.png';
 import Text from "../components/Text";
+import Footer from "../components/Footer/Footer";
 
 export function Sobre() {
     return (
+        <>
+        <div className="buttonComeBack">
+                <ButtonComeBack/>
+            </div>
+
         <section className="container flex">
             <div>
             <h1> QUEM É A BREJA ? </h1>
@@ -16,6 +23,9 @@ export function Sobre() {
             </div>
             <Text />
         </section>
+        <Footer/>
+                    
+        </>
     );
 }
 
