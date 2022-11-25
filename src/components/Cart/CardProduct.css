@@ -16,7 +16,7 @@
 }
 
 .imgAndTitle{
-    width: 400px;
+    width: 340px;
     margin-left: 0;
     justify-content: right;
     align-items: right;
@@ -24,11 +24,15 @@
 .product span{
     width: 240px;
     font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+
 }
 
-.contentBtn {
-   width: 30px;
+.btnQuantity {
+    width: 240px;
 }
+
 
 .btnRemove{
     display: flex;

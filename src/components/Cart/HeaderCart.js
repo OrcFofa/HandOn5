@@ -7,7 +7,7 @@ export const HeaderCart = () => {
             <span>ENTREGA</span>
             <span>PREÇO</span>
             <span>QUANTIDADE</span>
-            <span>TOTAL</span>
+            <span className="titleTotal">TOTAL</span>
         </div>
     )
 }

@@ -1,0 +1,14 @@
+.productsItems{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}

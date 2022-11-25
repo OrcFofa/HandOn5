@@ -21,7 +21,9 @@ export const CardProduct = ({id, img, title, price, total, quantity, cartItem, p
                  </div>
                   <span>a calcular</span>
                   <span>{BRreal.format(parseFloat(price))}</span>
+                  <div className="btnQuantity">
                   <ButtonQuantity quantity={quantity} product={product}/>
+                  </div>
                   <span className="total">{BRreal.format(parseFloat(price) * parseFloat(quantity))}</span>
                   <div className="contentBtn">
                   <button className="btnRemove" onClick={() => dispatch(removeFromCart(cartItem))}>X</button>
