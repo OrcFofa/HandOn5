@@ -1,9 +1,9 @@
 .bodyCartEmpty {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 95%;
     height: 60vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     border: 1px solid #000000;
 }
 
@@ -17,6 +17,11 @@
 .bodyCartEmpty h1{
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.textCartEmpty {
+    display: flex;
+    flex-direction: column;
 }
 
 .bodyCartEmpty .btn.btn-secondary{

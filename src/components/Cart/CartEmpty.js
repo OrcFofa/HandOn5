@@ -7,8 +7,10 @@ export const CartEmpty = () => {
     <div className="bodyCartEmpty">
         <RiShoppingCart2Line className="iconCart"/>
         <h1>O carrinho está vazio</h1>
+        <div className="textCartEmpty">
         <span>adicione produtos clicando no botão</span>
         <span>"comprar" na página de produtos</span>
+        </div>
         <Button href="/cervejas" tag="a">VER CERVEJAS</Button>
     </div>
   )

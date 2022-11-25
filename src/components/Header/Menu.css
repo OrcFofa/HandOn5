@@ -35,8 +35,9 @@
 #badgenav{
     background-color: #FF8A20;
     color:#fff;
-    border-radius: 50vh;
-    padding: 0.2vh 0.8vh;
+    border-radius: 100%;
+    font-size: 0.9rem;
+    padding: 0.1vh 0.7vh;
     position: absolute;
     margin-left: -0.4rem;
 }
