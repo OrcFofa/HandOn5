@@ -4,6 +4,10 @@
      margin-right: 110px;
     
 }
+.nome{
+    margin-top: 20px;
+
+}
 .form{
     font-size: 26.7907px;
     width: 962px;
@@ -18,10 +22,16 @@
 #input{
     background-color: #E8DFDF;
 }
+.form-control{
+    
+    background-color: #E8DFDF;
+
+}
 
 .buttons{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 #button{
     margin-top: 10px;
