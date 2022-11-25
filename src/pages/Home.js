@@ -2,8 +2,11 @@ import Logo from "../assets/img/home-img/logo.png";
 import Beer from "../assets/img/home-img/breja-larger.png";
 import Footer from "../components/Footer/Footer.js"
 import "../styles/home.css"
+import { useEffect, useState } from "react";
+import { Loading } from "../components/Loading/Loading";
 
 function Home(){
+
   return (
   <>
    <main>

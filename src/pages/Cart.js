@@ -11,11 +11,12 @@ import "../styles/cart.css"
 
 export const Cart = () => {
 
+
     const cart = useSelector((state) => state.cart);
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(getTotal())
+        dispatch(getTotal());
     })
 
     return (
@@ -47,7 +48,8 @@ export const Cart = () => {
                                         product={cartItem}
                                     />
                                 )))
-                            } </div>
+                            }
+                            </div>
                             <div className="cartFooter">
                                 <FooterCart 
                                 subtotal={cart.cartTotalAmount}

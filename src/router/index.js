@@ -16,5 +16,6 @@ export const router = createBrowserRouter([
         path: "/cervejas",
         element: <Products />
     },  
+    
 ])
 ;

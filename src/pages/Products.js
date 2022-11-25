@@ -3,11 +3,13 @@ import { useDispatch } from "react-redux";
 import { addToCart } from "../store/cartSlice";
 import { useEffect, useState } from "react";
 import { api } from "../service/api"
+import { Loading } from "../components/Loading/Loading";
 
 export const Products = () => {
     
     const [products, setProducts] = useState([]);
     const dispatch = useDispatch();
+    const [isLoading, setLoading] = useState(true);
 
     useEffect(() => {
       const fetchProducts = async () => {
@@ -16,7 +18,12 @@ export const Products = () => {
           setProducts(data)
       }
       fetchProducts();
+      setLoading(false);
   }, []);
+
+  if(isLoading){
+    return <Loading/>
+  }
   
     
   return (

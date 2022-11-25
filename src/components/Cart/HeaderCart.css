@@ -9,9 +9,10 @@
 }
 
 
-.titleProduct{
+.content .titleProduct{
     margin-left: 2rem;
     margin-right: 4rem;
+    text-align: left;
     }
     
 .content span{
