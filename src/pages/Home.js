@@ -1,13 +1,11 @@
 import Logo from "../assets/img/home-img/logo.png";
 import Beer from "../assets/img/home-img/breja-larger.png";
-import Footer from "../components/Footer/Footer.js"
-import "../styles/home.css"
+import Footer from "../components/Footer/Footer"
+import "../styles/home.css";
 
 function Home(){
-
   return (
-  <>
-   <main>
+    <>   <main>
     <section className="intro-bg">
       <div className="container-xxl d-flex">
         <div className="container-img"><img src={Logo} alt="Logo da Breja"/></div>
@@ -17,7 +15,6 @@ function Home(){
         </div>
       </div>
     </section>
-    
     <section className="highlights-bg">
       <div className="highlights container-xxl d-flex justify-content-between">
         <div className="container-img"><img src={Beer} alt="Cerveja da Breja"/></div>
@@ -47,8 +44,9 @@ function Home(){
       </div>
     </section>
    </main>
-   <Footer/>
-  </>
+   <Footer />
+   </>
+
   )
 }
 

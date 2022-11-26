@@ -24,7 +24,7 @@ export const Cart = () => {
             <div className="buttonComeBack">
                 <ButtonComeBack/>
             </div>
-            <div className="title">
+            <div className="titleCart">
                 <h1>MEU CARRINHO</h1>
             </div>
             <div className="cart">

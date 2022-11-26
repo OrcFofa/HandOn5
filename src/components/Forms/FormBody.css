@@ -1,0 +1,92 @@
+.titleForm{
+     margin-top: 3rem;
+     font-size: 2rem;
+}
+.nome{
+    margin-top: 20px;
+
+}
+.form{
+    font-size: 1.5rem;
+    width: 75%;
+    padding: 2rem;
+    border: 1px solid #000000;
+}
+
+.form input {
+    background-color: #E8DFDF;
+}
+
+ .titleInput {
+ display: flex;
+ justify-content: left;
+ align-items: center;
+}
+
+#cep .col-sm-3{
+    margin-left: 5rem;
+}
+
+
+.buttonForm{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+#buttonSendForm{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background: #FF8A20;
+    border: 1px solid #000000;
+    box-shadow: 0px 3.21356px 3.21356px rgba(0, 0, 0, 0.25), 0px 3.21356px 3.21356px rgba(0, 0, 0, 0.25), 0px 3.21356px 3.21356px rgba(0, 0, 0, 0.25), 0px 3.21356px 3.21356px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+#buttonSendForm:hover{
+    cursor: pointer;
+    background-color: #2D910F;
+}
+
+@media(max-width: 900px){
+
+.form {
+ width: 95%;
+}
+
+#cep .col-sm-3{
+margin-left: 3rem;
+}
+
+.titleForm{
+    justify-content: center;
+    text-align: center;
+}
+
+.titleForm{
+    justify-content: center;
+    text-align: center;
+}
+
+}
+
+@media(max-width: 500px){
+
+.titleForm{
+max-width: 95%;
+text-align: left;
+font-size: 1.5rem;
+margin-left: 1rem;
+margin-bottom: 3rem;
+    }
+
+.form {
+ width: 100%;
+}
+
+#cep .col-sm-3{
+margin-left: 0;
+}      
+}

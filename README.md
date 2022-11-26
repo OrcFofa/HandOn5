@@ -56,5 +56,7 @@ Para executá-lo:
    </td>
     <td align="center"> <img src="https://avatars.githubusercontent.com/u/84979000?v=4" width=175/></br><a href="https://github.com/socorrosans">Socorro Santos</a>
    </td>
+    <td align="center"> <img src="https://avatars.githubusercontent.com/u/116661959?v=4" width=175/></br><a href="https://github.com/amauri650">Amauri Xavier</a>
+   </td>
 </table>
 
