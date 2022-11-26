@@ -20,40 +20,25 @@
     height: 4vh;
 }
 
-<<<<<<< HEAD
 
 .iconHeader{
     color:#fff;
-=======
-.imgs{
->>>>>>> dd9a4f9c38905d6816bf45665d9eea3e59c4f518
     width: 4vh;
     height: 4vh;
 }
 
-<<<<<<< HEAD
 .iconHeader:hover{
     border-bottom: 2px solid #FF8A20;
 }
 
 
-=======
-.imgs:hover{
-    border-bottom: 2px solid #FF8A20;
-}
-
->>>>>>> dd9a4f9c38905d6816bf45665d9eea3e59c4f518
 #badgenav{
     background-color: #FF8A20;
     color:#fff;
     border-radius: 50vh;
-<<<<<<< HEAD
     padding: 0.2vh 0.8vh;
     position: absolute;
     margin-left: -0.4rem;
-=======
-    padding: 1.5vh 2vh;
->>>>>>> dd9a4f9c38905d6816bf45665d9eea3e59c4f518
 }
 
 #colors{
@@ -66,7 +51,6 @@
 
 .navbar-toggler-icon{
     background-color: #ffffff;
-<<<<<<< HEAD
 }
 
 .sectionCart{
@@ -79,6 +63,3 @@
 .iconCartHeader{
     margin-left: 1rem;
 }
-=======
-}
->>>>>>> dd9a4f9c38905d6816bf45665d9eea3e59c4f518

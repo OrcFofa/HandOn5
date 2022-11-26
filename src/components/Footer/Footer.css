@@ -1,5 +1,4 @@
 .feet{
-<<<<<<< HEAD
     padding: 2rem;
     max-height: 35vh;
     background-color: black;
@@ -12,28 +11,10 @@
     font-size: 2vh;
     line-height: 2vh;
     margin-left: 4rem;
-=======
-    padding: 0;
-    margin: 0;
-    background-color: black;
-    color: #fff;
-}
-
-p{
-    text-align:start;
-    font-family: 'Arya';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3vh;
-    line-height: 3vh;
-    padding: 1vh;
-   
->>>>>>> dd9a4f9c38905d6816bf45665d9eea3e59c4f518
 }
 
 #p1{
     text-align:start;
-<<<<<<< HEAD
     font-size: 4vh;
     line-height: 3.5vh;
     margin-bottom: 1.5rem;
@@ -45,10 +26,3 @@ p{
     height: 3vh;
     margin-right: 0.5rem;
 }
-=======
-    font-family: 'Arya';
-    font-style: normal;
-    font-size: 4vh;
-    line-height: 4vh;
-}
->>>>>>> dd9a4f9c38905d6816bf45665d9eea3e59c4f518
