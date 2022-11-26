@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom"
-import { Cart } from "../pages/cart";
+import { Cart } from "../pages/Cart";
 import Home from "../pages/Home.js";
 import {About} from '../pages/About';
 export const router = createBrowserRouter([
