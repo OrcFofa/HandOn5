@@ -6,17 +6,19 @@ section .container {
     align-items:center;
     position:relative;
 }
-
-.container h1 {
+.buttonComeBack{
+    margin: 0rem 7rem;
+}
+.subtitle {
+    margin-left: 4rem;
+    font-family: 'Alfa Slab One';
     width: 676px;
-    height: 54px;
+    height: 7rem;
+    line-height: 3rem;
     font-style: normal;
+    font-size: 4.5rem;
     font-weight: 800;
-    font-size: 64px;
-    font-border: 1px solid #000000;
     color: #FF8A20;
-    margin-top: 100px;
-    margin-bottom: 80px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -46,30 +48,35 @@ section .container {
     Font-family: Arya;
     font-weight: 400;
     font-size: 48px;
-    size: 24px;
-    width: 365px;
-    height: 80px;
+    width: 261px;
+    height: 113px;
+    top: 248px;
     left: 891px;
+    margin-left: 1rem;
+    
 }
 
 .container2 .text1 {
-    font-family: 'Alfa Slab One'; 
-    height: 200px; 
+    Font-family: Alfa Slab One;
+    font-weight: 400;
+    font-size: 36px;
+    Line-height: 40px;
+    width: 430px;
+    height: 364.6px;
+    top: 438px;
     left: 891px;
-    margin-top: 5vh; 
-    margin-right: 5vh;
-    weight: 400;
-    Size: 36px;
-    line-height: 40px;
-    color: #000000;
+    margin-bottom: 3vh;
 }
 
-.container2 .text2  {
-    font-family: Arya;
-    weight: 400;
-    font-size: 50px;
-    Line-height: 3vh;
-    color: #FF8A20;
-    margin-top: 15vh;
-    width:420px;
+.container2 .text2 {
+    Font-family: Arya;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    font-size: 3rem;
+    color:#FF8A20;
+    margin-bottom: 5vh;
 }
+
+
+

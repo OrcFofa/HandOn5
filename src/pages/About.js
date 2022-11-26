@@ -1,12 +1,12 @@
-import "./Sobre.css";
+import "../styles/about.css";
 import React from "react";
 import {ButtonComeBack} from "../components/Cart/ButtonComeBack"
 import ImageBack from '../../src/assets/img/image-back.png';
 import ImageFront from '../../src/assets/img/image-front.png';
-import Text from "../components/Text";
+import Text from "../components/Text/Text";
 import Footer from "../components/Footer/Footer";
 
-export function Sobre() {
+export function About() {
     return (
         <>
         <div className="background-about">
@@ -14,8 +14,9 @@ export function Sobre() {
                 <ButtonComeBack/>
             </div>
         <section className="container flex">
-            <div>
-            <h1> QUEM É A BREJA ? </h1>
+
+            <div class="row gx-5">
+            <div className="subtitle"> QUEM É A BREJA ? </div>
                 <div className="figure">
                     <img src={ImageBack} className="image-back"  />
                     <img src={ImageFront} className="image-front" />
