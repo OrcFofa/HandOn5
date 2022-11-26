@@ -24,7 +24,7 @@ function Menu ()  {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse >
             <Nav.Link id="colors" href="/">Home</Nav.Link>
-            <Nav.Link id="colors" href="#link">Sobre</Nav.Link>
+            <Nav.Link id="colors" href="/sobre">Sobre</Nav.Link>
             <Nav.Link id="colors" href="#link2">Cervejas </Nav.Link>
             <Nav.Link id="colors" href="/carrinho" className="sectionCart">Carrinho<BsCart3 className='iconCartHeader'/><Badge id="badgenav" bg="">{cart.cartItems.length}</Badge></Nav.Link>   
             <Nav>
