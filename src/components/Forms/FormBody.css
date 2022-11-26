@@ -1,6 +1,7 @@
 .titleForm{
-     margin-top: 3rem;
-     font-size: 2rem;
+    font-size: 2.3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 .nome{
     margin-top: 20px;
@@ -31,7 +32,6 @@
 .buttonForm{
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
 }
 
 #buttonSendForm{
@@ -88,5 +88,10 @@ margin-bottom: 3rem;
 
 #cep .col-sm-3{
 margin-left: 0;
-}      
+}  
+
+.buttonForm{
+   margin-bottom: 3rem;
+}
+
 }

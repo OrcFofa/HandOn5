@@ -3,9 +3,10 @@ import Beer from "../assets/img/home-img/breja-larger.png";
 import Footer from "../components/Footer/Footer"
 import "../styles/home.css";
 
-function Home(){
+export function Home(){
   return (
-    <>   <main>
+    <>   
+    <main>
     <section className="intro-bg">
       <div className="container-xxl d-flex">
         <div className="container-img"><img src={Logo} alt="Logo da Breja"/></div>
@@ -36,7 +37,6 @@ function Home(){
         </div>
       </div>
     </section>
-
     <section className="quote-bg">
       <div>
         <q>BRINDO À CASA, BRINDO À VIDA, MEUS AMORES, MINHA FAMÍLIA ...</q>
@@ -49,5 +49,3 @@ function Home(){
 
   )
 }
-
-export default Home;

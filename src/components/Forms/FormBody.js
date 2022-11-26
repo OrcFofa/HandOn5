@@ -1,15 +1,34 @@
+import { useEffect, useState } from "react";
 import {useForm} from "react-hook-form";
+import { useDispatch, useSelector } from "react-redux";
 import {Form, Button} from "reactstrap";
 import {api} from "../../service/api";
+import { getTotal } from "../../store/cartSlice";
 import "./FormBody.css";
 
 export const FormBody = () => {
-    const {register, setValue, handleSubmit} = useForm();
 
-    const onSubmit = (e) => {
-        console.log(e);
+
+    const cart = useSelector(state => state.cart);
+    const dispatch = useDispatch()
+    const [ name, setName ] = useState();
+    const [ number, setNumber] = useState();
+    const {register, setValue, getValues} = useForm();
+       
+
+    function integrateWhatsapp(){
+      window.location.href = `https://wa.me/5511977484877?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido.%0A%0ANome%3A%20${name}%0A%0AProdutos%3A%0A%0A${
+        cart.cartItems.map(cartItem =>(
+          `${cartItem.cartQuantity}. ${cartItem.title} R$${cartItem.price}%0A%0A`
+        ))}Total%3A%20R$${`${cart.cartTotalAmount}`}%0A%0AEndere%C3%A7o%3A${` ${getValues("logradouro")} , número ${number} ,${getValues("bairro")} , ${getValues("cidade")} - ${getValues("estado")}`}`
+    }
+    
+    const sendOrder = (e) => {
+        integrateWhatsapp();
+        dispatch(getTotal());
     };
 
+     
     async function onBlurCep(e) {
         const {value} = e.target;
 
@@ -42,6 +61,8 @@ export const FormBody = () => {
                                 <div class="col-sm-10">
                                     <input class="form-control"
                                      placeholder="Digite seu nome"
+                                     onChange={(e) => setName(e.target.value)}
+                                     required
                                      />
                                 </div>
                             </div>
@@ -50,7 +71,9 @@ export const FormBody = () => {
                                 <div class="col-sm-10">
                                     <input 
                                     class="form-control" 
-                                    placeholder="Digite seu telefone"/>
+                                    placeholder="Digite seu telefone"
+                                    required
+                                    />
                                 </div>
                             </div>
                             <div class="form-group row titleInput" id="cep">
@@ -61,6 +84,7 @@ export const FormBody = () => {
                                     placeholder="Digite seu CEP"
                                     {...register("cep")}
                                     onBlur={onBlurCep}
+                                    required
                                     />
                                 </div>
                             </div>
@@ -75,7 +99,12 @@ export const FormBody = () => {
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>Número:</label>
-                                    <input type="text" class="form-control" placeholder="Nº"/>
+                                    <input type="text" 
+                                    class="form-control" 
+                                    placeholder="Nº"
+                                    onChange={(e) => setNumber(e.target.value)}
+                                    required
+                                    />
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -118,9 +147,7 @@ export const FormBody = () => {
             </section>
             <div className="buttonForm">
                     <Button id="buttonSendForm"
-                        onSubmit={
-                            handleSubmit(onSubmit)
-                    }>
+                        onClick={sendOrder}>
                         Continuar
                     </Button>
                 </div>
