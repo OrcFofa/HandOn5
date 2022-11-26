@@ -25,3 +25,10 @@
 .titleTotal{
     margin-right: 2rem;
 }
+
+@media(max-width: 750px){
+
+.content {
+    display: none;
+}
+}

@@ -19,7 +19,7 @@ export const CardProduct = ({id, img, title, price, total, quantity, cartItem, p
                   <img src={img} alt="imagem produto" className="imgProduct"/>
                     <span>{title}</span>
                  </div>
-                  <span>a calcular</span>
+                  <span className="delivery">a calcular</span>
                   <span>{BRreal.format(parseFloat(price))}</span>
                   <div className="btnQuantity">
                   <ButtonQuantity quantity={quantity} product={product}/>

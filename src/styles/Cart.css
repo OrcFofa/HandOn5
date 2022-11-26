@@ -3,7 +3,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .buttonComeBack{
@@ -16,7 +16,7 @@ margin-left:9.5rem;
 
 .cardProduct{
     width: 95%;
-    max-height: 250px;
+    max-height: 300px;
     overflow-y: auto;
 }
 
@@ -41,3 +41,21 @@ margin-left:9.5rem;
     width: 95%;
     border: 1px solid #000000;
 }
+
+
+@media(max-width: 750px){
+
+    .title {
+     margin-top: 1rem;
+     margin-left: 7rem;
+    }
+
+    .cardProduct{
+        overflow: hidden;
+        max-height: 100%;
+    }
+    .cartFooter {
+        border: none;
+    }
+    
+    }

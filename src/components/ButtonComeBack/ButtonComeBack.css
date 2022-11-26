@@ -1,8 +1,17 @@
 .arrow {
     color: #000000;
     font-size: 3rem;
+    display: flex;
 }
 
 .link {
     text-decoration: none;
 }
+
+@media(max-width: 750px){
+
+.arrow{
+display: none;
+}
+}
+  

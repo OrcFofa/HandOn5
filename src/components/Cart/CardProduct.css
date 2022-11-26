@@ -17,22 +17,18 @@
 
 .imgAndTitle{
     width: 340px;
-    margin-left: 0;
-    justify-content: right;
-    align-items: right;
 }
+
 .product span{
     width: 240px;
     font-size: 1rem;
     justify-content: center;
     text-align: center;
-
 }
 
 .btnQuantity {
     width: 240px;
 }
-
 
 .btnRemove{
     display: flex;
@@ -49,3 +45,67 @@
 .total {
 padding-left: 1.8rem;
 }
+
+
+@media(max-width: 900px) and (min-width:780px){
+
+    .imgProduct{
+        margin-left: 0;
+    }
+    .imgAndTitle {
+        width: 550px;
+        justify-content: left;
+        align-items: left;
+    }
+}
+
+
+@media(max-width: 770px){
+
+.product .delivery{
+display: none;
+width: 100%;
+}
+
+.total {
+display: none;
+    }
+
+.btnQuantity {
+width: 80px;
+margin-left: 0.5rem;
+}    
+
+.product span{
+width: 50px;
+margin-right: 0.5rem;
+}
+
+.imgProduct{
+margin: 0;
+}
+
+.imgAndTitle{
+width: 200px;
+margin: 0;
+}
+
+.imgAndTitle span {
+    margin-left: 0.5rem;
+    width: 100%;
+    text-align: left;
+}
+
+.btnRemove{
+display: none;
+}
+    }
+
+
+@media(max-width: 380px){
+    .imgAndTitle{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        }
+}    

@@ -7,3 +7,33 @@
 .btnFooter {
    margin: 0 2rem;
 }
+
+
+@media(max-width: 750px){
+    
+  .footerCart {
+     flex-direction: column;
+     position: relative;
+   
+  }
+
+  .footerCart .btnFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .footerCart .btnFooter .btnChoose{
+    position: absolute;
+    margin-top: 20rem;
+  }
+
+  .footerCart .btnFooter .btnFinish{
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
+  }
+
+
+  }
+
