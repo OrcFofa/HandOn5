@@ -1,0 +1,23 @@
+.card {
+ width: 300px;
+ padding: 30px 50px 50px;
+ border: 2px solid #000;
+}
+.card button{
+ display: inline-block;
+ padding: 14px 17px;
+ background-color: #ff8a20;
+ border: 1px solid #000;
+ border-radius: 8px;
+ font-size: 13px;
+ font-weight: 400px;
+}
+.card h2{
+top: 30px;
+}
+.card span{
+    width: 99px;
+    height: 43px;
+    top: 896px;
+    left: 130px;
+}
