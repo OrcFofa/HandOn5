@@ -148,7 +148,7 @@ export const FormBody = () => {
             </section>
             <div className="buttonForm">
                     <button id="buttonSendForm"
-                        onClick={sendOrder}>
+                        onSubmit={sendOrder}>
                         Continuar
                     </button>
                 </div>

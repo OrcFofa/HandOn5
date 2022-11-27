@@ -1,5 +1,4 @@
 import { useDispatch } from "react-redux";
-import { Button } from "reactstrap";
 import { addToCart } from "../store/cartSlice";
 import { useEffect, useState } from "react";
 import { api } from "../service/api"
