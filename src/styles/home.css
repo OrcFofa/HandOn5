@@ -189,9 +189,6 @@ main {
 }
 
 @media(max-width: 1200px){
-  .container-img {
-    max-width: 200px;
-  }
 
   .highlights-bg .container-xxl {
     column-gap: 30px;
