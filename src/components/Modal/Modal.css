@@ -1,0 +1,16 @@
+.modal-idade{
+    background-color: rgb(248, 24, 24);
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+.modal-idade button{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    margin: 0 50px;
+    background-color: aliceblue;
+    font-size: 30px;
+    
+
+}

@@ -1,11 +1,13 @@
 import Logo from "../assets/img/home-img/logo.png";
 import Beer from "../assets/img/home-img/breja-larger.png";
+import Modall from "../components/Modal/Modal";
 import Footer from "../components/Footer/Footer"
 import "../styles/home.css";
 
 export function Home(){
   return (
-    <>   
+    <>  
+    <Modall/> 
     <main>
     <section className="intro-bg">
       <div className="container-xxl d-flex">
