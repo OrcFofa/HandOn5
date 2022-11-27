@@ -9,26 +9,26 @@
 }
 
 
-.content .titleProduct{
+.content .titleProduct {
     margin-left: 2rem;
     margin-right: 4rem;
     text-align: left;
-    }
-    
-.content span{
+}
+
+.content span {
     width: 290px;
     font-size: 1.3rem;
     justify-content: center;
     text-align: center;
-    }
+}
 
-.titleTotal{
+.titleTotal {
     margin-right: 2rem;
 }
 
-@media(max-width: 750px){
+@media(max-width: 750px) {
 
-.content {
-    display: none;
-}
+    .content {
+        display: none;
+    }
 }

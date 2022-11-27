@@ -1,16 +1,63 @@
 .containerProducts {
-    background-color: #F5EEEE;
+    background: #F5EEEE;
+}
+
+.btnComeBackBeer{
+    padding-top: 1rem;
+    padding-left: 4rem;
 }
 
 .titleProducts {
     justify-content: center;
     text-align: center;
+    margin-bottom: 3rem;
+}
+
+.productsItems {
+    background-color: #F5EEEE;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.containerCardBeer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    width: 20vw;
+    border: 1px solid #000;
+    background: #F5EEEE;
+    margin: 2rem;
+    padding: 2.5rem;
+}
+
+button.btnCard {
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: #ff8a20;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.details {
+    margin-top: 1rem;
+}
+
+.titleBeer {
+    margin-top: 2rem;
+    width: 80%;
 }
 
 .sectionGrowler {
-padding: 5rem;
-background-color: #FF8A20;
-display: flex;
+    padding: 5rem;
+    background-color: #FF8A20;
+    display: flex;
+    margin-top: 5rem;
 }
 
 .imageGrowler img {
@@ -18,7 +65,7 @@ display: flex;
     height: 60vh;
 }
 
-.titleGrowler{
+.titleGrowler {
     font-family: 'Alfa Slab One';
     font-style: normal;
     color: #ffffff;
@@ -26,19 +73,19 @@ display: flex;
     margin-bottom: 3rem;
 }
 
-.contentGrowler{
+.contentGrowler {
     justify-content: center;
     align-items: center;
     text-align: center;
-    }
+}
 
 
 .contentGrowler span {
-  font-size: 1.3rem;
+    font-size: 1.3rem;
 }
- 
 
-.contentGrowler ol{
+
+.contentGrowler ol {
     display: flex;
     font-size: 1.3rem;
     margin-top: 3rem;
@@ -49,28 +96,64 @@ display: flex;
     text-align: left;
 }
 
-.contentGrowler .btnGrowler{
+.contentGrowler .btnGrowler {
     margin-top: 6rem;
     background-color: #FFFFFF;
     color: #000000;
     border-radius: 9px;
     border: none;
     width: 30%;
+    height: 10%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 
-.productsItems{
-    display: flex;
-    flex-direction: column;
+@media(max-width: 900px) {
+
+    .productsItems {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .containerCardBeer {
+        width: 60%;
+    }
+
+
+    .imageGrowler img {
+        display: none;
+    }
+
+    .contentGrowler ol li {
+        margin-left: 0;
+    }
+
 }
 
-button {
-    width: 150px;
-    height: 50px;
-}
+@media(max-width: 500px) {
 
-img {
-    width: 150px;
-    height: 150px;
+    .titleProducts {
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .productsItems {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .titleGrowler {
+        font-size: 1.5rem;
+        width: 80vw;
+    }
+
+    .contentGrowler ol {
+        flex-direction: column;
+    }
+
+    .contentGrowler .btnGrowler {
+        width: 50%;
+        margin-top: 1.5rem;
+    }
+
+
 }

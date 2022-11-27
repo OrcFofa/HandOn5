@@ -1,6 +1,7 @@
-.buttonComeBack{
-    margin: 0rem 7rem;
+.background-about{
+    background-color:#F5EEEE;
 }
+
 .subtitle {
     margin-bottom: 4rem;
     font-family: 'Alfa Slab One';
@@ -9,6 +10,8 @@
     font-size: 3.5rem;
     font-weight: 400;
     color: #FF8A20;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     
 }
@@ -23,41 +26,72 @@
     left: -50px;
     bottom: -50px;
 }
-@media only screen and (max-width: 900px) {
-    .container .figure, .buttonComeBack {
-        display:none;
-    }
-}
-@media only screen and (max-width: 900px) {
-    .subtitle {
-        margin-top:25px;
-    }
-}
-
-.background-about{
-    background-color:#F5EEEE;
-}
-
-.container2 h2 {
-    font-family: Arya;
-    font-weight: 400;
-    font-size: 48px;
-    margin-left: 1rem;
-    
-}
 
 .container2 .text1 {
-    font-size: 25px;
-    line-height: 40px;
-    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    width: 25vw;
+    margin-bottom: 1.5rem;
 }
 
 .container2 .text2 {
     font-style: normal;
-    line-height: 30px;
+    line-height: 2.8rem;
     font-size: 2.5rem;
     color:#FF8A20;
+    font-family: 'Alfa Slab One';
+    width: 30vw;
 }
+
+
+.container2 h2 {
+    font-size: 48px;
+    margin-left: 1rem; 
+    margin-bottom: 3rem;
+    width: 30vw;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container .figure, .buttonComeBack {
+        display:none;
+    }
+
+    .subtitle {
+        justify-content: center;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .container2 h2{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .container2 .text1 {
+        width: 80vw;
+    }
+
+    .container2 .text2 {
+        width: 80vw;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    .subtitle{
+        padding-top: 5rem;
+        line-height: 4rem;
+    }
+
+}
+
+
+
+
+
 
 
 

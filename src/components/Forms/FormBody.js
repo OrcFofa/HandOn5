@@ -14,7 +14,6 @@ export const FormBody = () => {
     const [ name, setName ] = useState();
     const [ number, setNumber] = useState();
     const {register, setValue, getValues} = useForm();
-      
 
     function integrateWhatsapp(){
       window.location.href = `https://wa.me/5511977484877?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido.%0A%0ANome%3A%20${name}%0A%0AProdutos%3A%0A%0A${
@@ -59,7 +58,7 @@ export const FormBody = () => {
                 </h1>
                 <div className="container d-flex justify-content-center">
                     <div className="form">
-                        <Form>
+                        <form>
                             <div className="form-group row titleInput">
                                 <label className="col-sm-2 col-form-label">Nome:</label>
                                 <div className="col-sm-10">
@@ -67,6 +66,7 @@ export const FormBody = () => {
                                      placeholder="Digite seu nome"
                                      value = {name}
                                      onChange={(e) => setName(e.target.value)}
+                                     required
                                      />
                                 </div>
                             </div>
@@ -142,13 +142,13 @@ export const FormBody = () => {
                                      />
                                 </div>
                             </div>
-                        </Form>
+                        </form>
                     </div>
                 </div>
             </section>
             <div className="buttonForm">
                     <button id="buttonSendForm"
-                        onSubmit={sendOrder}>
+                        onClick={sendOrder}>
                         Continuar
                     </button>
                 </div>

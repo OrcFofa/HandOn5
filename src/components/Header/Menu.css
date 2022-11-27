@@ -1,8 +1,8 @@
-*{
+* {
     justify-content: space-around;
 }
 
-.menu{
+.menu {
     padding: 0;
     margin: 0;
     font-family: 'Arya';
@@ -10,31 +10,31 @@
     background-color: #000;
 }
 
-#ims{
+#ims {
     width: 20vh;
     height: 10vh;
 }
 
-#ims2{
+#ims2 {
     width: 4vh;
     height: 4vh;
 }
 
 
-.iconHeader{
-    color:#fff;
+.iconHeader {
+    color: #fff;
     width: 4vh;
     height: 4vh;
 }
 
-.iconHeader:hover{
+.iconHeader:hover {
     border-bottom: 2px solid #FF8A20;
 }
 
 
-#badgenav{
+#badgenav {
     background-color: #FF8A20;
-    color:#fff;
+    color: #fff;
     border-radius: 100%;
     font-size: 0.9rem;
     padding: 0.1vh 0.7vh;
@@ -42,25 +42,25 @@
     margin-left: -0.4rem;
 }
 
-#colors{
+#colors {
     color: #fff;
 }
 
-#colors:hover{
+#colors:hover {
     color: #FF8A20;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-color: #ffffff;
 }
 
-.sectionCart{
+.sectionCart {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-.iconCartHeader{
+.iconCartHeader {
     margin-left: 1rem;
 }

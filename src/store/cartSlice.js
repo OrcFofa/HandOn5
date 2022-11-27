@@ -15,6 +15,9 @@ const cartSlice = createSlice({
             const itemIndex = state.cartItems.findIndex( (item) => item.productId === action.payload.productId);
             if(itemIndex >= 0) {
                 state.cartItems[itemIndex].cartQuantity += 1;
+                toast.info(`Mais uma ${action.payload.title} adicionada no carrinho`, {
+                    position: "bottom-left",
+                    })
             }
             else {
             const tempProduct = { ...action.payload, cartQuantity: 1 };

@@ -1,39 +1,38 @@
-.footerCart{
+.footerCart {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .btnFooter {
-   margin: 0 2rem;
+  margin: 0 2rem;
 }
 
 
-@media(max-width: 750px){
-    
+@media(max-width: 750px) {
+
   .footerCart {
-     flex-direction: column;
-     position: relative;
-   
+    flex-direction: column;
+    position: relative;
+
   }
 
-  .footerCart .btnFooter{
+  .footerCart .btnFooter {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
 
-  .footerCart .btnFooter .btnChoose{
+  .footerCart .btnFooter .btnChoose {
     position: absolute;
     margin-top: 20rem;
   }
 
-  .footerCart .btnFooter .btnFinish{
+  .footerCart .btnFooter .btnFinish {
     margin-top: 4.5rem;
     margin-bottom: 2rem;
   }
 
 
-  }
-
+}
