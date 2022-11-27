@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center"><img src="./public/logo.svg" alt="logo" height="150" width="150"></p>
 <br>
 

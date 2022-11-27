@@ -9,12 +9,11 @@ import {BsCart3} from "react-icons/bs";
 import { FaTiktok, FaInstagram, FaSpotify} from "react-icons/fa";
 import "../Header/Menu.css"
 
+export function Menu ()  {
 
-function Menu ()  {
+const cart = useSelector((state) => state.cart)
 
-  const cart = useSelector((state) => state.cart)
-
-    return (    
+    return (
       <Container className="menu" fluid >
         <Row>
         <Navbar expand="lg">
@@ -25,7 +24,7 @@ function Menu ()  {
           <Navbar.Collapse >
             <Nav.Link id="colors" href="/">Home</Nav.Link>
             <Nav.Link id="colors" href="/sobre">Sobre</Nav.Link>
-            <Nav.Link id="colors" href="/cervejas">Cervejas </Nav.Link>
+            <Nav.Link id="colors" href="#link2">Cervejas </Nav.Link>
             <Nav.Link id="colors" href="/carrinho" className="sectionCart">Carrinho<BsCart3 className='iconCartHeader'/><Badge id="badgenav" bg="">{cart.cartItems.length}</Badge></Nav.Link>   
             <Nav>
             <Nav.Link href="https://www.tiktok.com/@cervejaria_breja?_t=8Xa94fwGcKM&_r=1"><FaTiktok className='iconHeader'/></Nav.Link>
@@ -38,5 +37,3 @@ function Menu ()  {
       </Container>
     )
 }
-
-export default Menu
