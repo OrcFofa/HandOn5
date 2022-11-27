@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import {useForm} from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
-import {Form, Button} from "reactstrap";
+import {Form} from "reactstrap";
 import {api} from "../../service/api";
 import { getTotal } from "../../store/cartSlice";
 import "./FormBody.css";
