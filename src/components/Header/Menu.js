@@ -14,7 +14,7 @@ function Menu ()  {
 
   const cart = useSelector((state) => state.cart)
 
-    return (
+    return (    
       <Container className="menu" fluid >
         <Row>
         <Navbar expand="lg">

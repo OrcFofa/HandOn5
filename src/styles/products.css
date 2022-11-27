@@ -1,3 +1,65 @@
+.containerProducts {
+    background-color: #F5EEEE;
+}
+
+.titleProducts {
+    justify-content: center;
+    text-align: center;
+}
+
+.sectionGrowler {
+padding: 5rem;
+background-color: #FF8A20;
+display: flex;
+}
+
+.imageGrowler img {
+    width: 40vw;
+    height: 60vh;
+}
+
+.titleGrowler{
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    color: #ffffff;
+    -webkit-text-stroke: 1px black;
+    margin-bottom: 3rem;
+}
+
+.contentGrowler{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+
+.contentGrowler span {
+  font-size: 1.3rem;
+}
+ 
+
+.contentGrowler ol{
+    display: flex;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+
+.contentGrowler ol li {
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.contentGrowler .btnGrowler{
+    margin-top: 6rem;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 9px;
+    border: none;
+    width: 30%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
 .productsItems{
     display: flex;
     flex-direction: column;

@@ -12,12 +12,13 @@ export function About() {
         <div className="buttonComeBack">
                 <ButtonComeBack/>
             </div>
-        <section className="container flex containerAbout">
+        <section className="container flex">
+
             <div class="row gx-5">
             <div className="subtitle"> QUEM É A BREJA ? </div>
                 <div className="figure">
-                    <img src={ImageBack} className="image-back" alt="" />
-                    <img src={ImageFront} className="image-front" alt="" />
+                    <img src={ImageBack} className="image-back"  alt=""/>
+                    <img src={ImageFront} className="image-front" alt=""/>
                 </div>
             </div>
             <Text />
