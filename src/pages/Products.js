@@ -1,14 +1,15 @@
 import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
+import {useDispatch} from "react-redux";
 import {api} from "../service/api"
 import {Loading} from "../components/Loading/Loading";
 import {ButtonComeBack} from "../components/ButtonComeBack/ButtonComeBack";
-import Footer from "../components/Footer/Footer";
 import ImageGrowler from "../assets/img/growler.png"
-import {Link} from "react-router-dom";
 import {addToCart} from "../store/cartSlice";
+import Footer from "../components/Footer/Footer";
 import "../styles/products.css"
-import {useDispatch} from "react-redux";
-import { Button } from "reactstrap";
+
+
 
 
 export const Products = () => {
@@ -30,7 +31,6 @@ export const Products = () => {
     if (isLoading) {
         return <Loading/>
     }
-
 
     return (
         <>
