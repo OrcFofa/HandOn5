@@ -1,0 +1,91 @@
+.bgModal {
+    background-image: url("../../assets/img/background-modal.png");
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerModal {
+    width: 35vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    border: 4px solid #000000;
+    border-radius: 14px;
+}
+
+.containerModal img {
+    max-width: 40%;
+    height: 40%;
+    margin-bottom: 3.5rem;
+}
+
+.containerModal h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btnYes {
+    background-color: #FF8A20;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: 0.5px solid #000000;
+    margin-right: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btnNot {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: 0.5px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btnNot a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+@media (max-width: 1000px) {
+
+    .bgModal {
+        background-size: 250%;
+    }
+
+    .containerModal {
+        width: 80vw;
+        height: 70vh;
+    }
+
+    .containerModal img {
+        max-width: 60%;
+        height: 40%;
+    }
+
+
+    .btnYes {
+        width: 20vw;
+        height: 5vh;
+    }
+
+    .btnNot {
+        width: 20vw;
+        height: 5vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .bgModal {
+        background-size: 380%;
+    }
+}
