@@ -6,7 +6,7 @@ import {FaWhatsapp } from "react-icons/fa";
 import { BiPhone } from "react-icons/bi";
 import "../Footer/Footer.css"
 
-function Footer ()  {
+export function Footer ()  {
     return (
     <Container fluid xs={1} md={5} lg={6}>
         <Row>

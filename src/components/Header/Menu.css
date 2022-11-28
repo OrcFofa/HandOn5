@@ -50,10 +50,6 @@
     color: #FF8A20;
 }
 
-.navbar-toggler-icon {
-    background-color: #ffffff;
-}
-
 .sectionCart {
     display: flex;
     align-items: center;
@@ -63,4 +59,22 @@
 
 .iconCartHeader {
     margin-left: 1rem;
+}
+
+.navbar-toggler-icon{
+    background-color: #FF8A20;
+    border-radius: 7px;
+}
+
+
+@media (max-width: 1000px){
+    .iconCartHeader{
+        display: none;
+    }
+    #badgenav{
+        display: none;
+    }
+    .iconHeader {
+        display: none;
+    }
 }

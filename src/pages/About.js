@@ -2,7 +2,7 @@ import { ButtonComeBack } from "../components/Cart/ButtonComeBack";
 import ImageBack from "../../src/assets/img/image-back.png";
 import ImageFront from "../../src/assets/img/image-front.png";
 import Text from "../components/Text/Text";
-import Footer from "../components/Footer/Footer";
+import {Footer} from "../components/Footer/Footer";
 import "../styles/about.css";
 
 export function About() {

@@ -4,6 +4,7 @@ import { Home } from "../pages/Home.js";
 import { Products } from "../pages/Products";
 import { Formulary } from "../pages/Formulary"
 import { About } from "../pages/About";
+import { Growler } from "../pages/Growler"
 
 
 export const router = createBrowserRouter([
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
     {
         path: "/sobre",
         element: <About />
+    },
+    {
+        path: "/growler",
+        element: <Growler />
     }
       
     

@@ -7,7 +7,7 @@ import "./Modal.css"
 Modal.setAppElement('#root');
 
 
-export default function ModalOpen() {
+export function ModalOpen() {
 
     const [modalIsOpen, setIsOpen] = useState(true);
 

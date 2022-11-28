@@ -1,7 +1,7 @@
 import Logo from "../assets/img/home-img/logo.png";
 import Beer from "../assets/img/home-img/breja-larger.png";
-import ModalOpen from "../components/Modal/Modal";
-import Footer from "../components/Footer/Footer"
+import {ModalOpen} from "../components/Modal/Modal";
+import {Footer} from "../components/Footer/Footer"
 import "../styles/home.css";
 
 export function Home(){
