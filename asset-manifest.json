@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/breja/static/css/main.18a46fd6.css",
+    "main.js": "/breja/static/js/main.ca2ede60.js",
+    "static/media/background-modal.png": "/breja/static/media/background-modal.a68ce0c3106a9933ec80.png",
+    "static/media/banner.png": "/breja/static/media/banner.6680fdfb03ddb2ce39c7.png",
+    "static/media/imggrowler.png": "/breja/static/media/imggrowler.060453255059a2383012.png",
+    "static/media/growler.png": "/breja/static/media/growler.d738e3b3709bc9de8810.png",
+    "static/media/logo.svg": "/breja/static/media/logo.a8b01f3fe718dde0635b980a1cdb388f.svg",
+    "static/media/image-front.png": "/breja/static/media/image-front.8ac09724c76a337dbeb9.png",
+    "static/media/image-back.png": "/breja/static/media/image-back.f29c2df07048a467033f.png",
+    "static/media/home-bg.png": "/breja/static/media/home-bg.9433f2d4f438cbdc4697.png",
+    "static/media/loading.gif": "/breja/static/media/loading.761f033208333d112d33.gif",
+    "static/media/breja-larger.png": "/breja/static/media/breja-larger.7708472091f0d2cebd57.png",
+    "static/media/logo.png": "/breja/static/media/logo.ce5e490fae7be71a0ec2.png",
+    "index.html": "/breja/index.html",
+    "main.18a46fd6.css.map": "/breja/static/css/main.18a46fd6.css.map",
+    "main.ca2ede60.js.map": "/breja/static/js/main.ca2ede60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18a46fd6.css",
+    "static/js/main.ca2ede60.js"
+  ]
+}
