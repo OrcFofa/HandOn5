@@ -54,7 +54,7 @@ export const FormBody = () => {
             alert("Preencha todos os campos!")
         } else {
             window.location.href = `https://wa.me/5511977484877?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido.%0A%0ANome%3A%20${getValues("name")}%0A%0AProdutos%3A%0A%0A${
-                cart.cartItems.map(cartItem => (`${cartItem.cartQuantity}. ${cartItem.title} R$${cartItem.price}%0A%0A`))}Total%3A%20R$${`R$${cart.cartTotalAmount}`}%0A%0AEndere%C3%A7o%3A${` ${getValues("logradouro")} , número ${getValues("number")} ,${getValues("bairro")}. - ${getValues("cidade")} - ${getValues("estado")}.%0A%0A${`Complemento: ${getValues("complemento")}.`}`}`
+                cart.cartItems.map(cartItem => (`${cartItem.cartQuantity}. ${cartItem.title} R$${cartItem.price}%0A%0A`))}Total%3A%20${`R$${cart.cartTotalAmount}`}%0A%0AEndere%C3%A7o%3A${` ${getValues("logradouro")} , número ${getValues("number")} ,${getValues("bairro")}. - ${getValues("cidade")} - ${getValues("estado")}.%0A%0A${`Complemento: ${getValues("complemento")}.`}`}`
         }
     }
 
